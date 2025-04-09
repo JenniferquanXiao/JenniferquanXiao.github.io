@@ -41,6 +41,16 @@ papers:
     label: "ICLR"
     fig: "./assets/pub_figure/global_conv.png"
 
+  - title: "On Penalty-Based Bilevel Gradient Descent Method"
+    authors: "Han Shen, <strong><u>Quan Xiao</strong></u>, and Tianyi Chen"
+    venue: "Mathematical Programming <strong>(Series A)</strong>"
+    paper_pdf: "https://link.springer.com/article/10.1007/s10107-025-02194-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250205&utm_content=10.1007/s10107-025-02194-4"
+    code: "https://github.com/hanshen95/penalized-bilevel-gradient-descent"
+    year: "2025"
+    selected: y
+    label: "MP"
+    fig: "./assets/pub_figure/PBGD.png"
+
   - title: "A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints"
     authors: "Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Victor M. Tenorio, Fernando Real-Rojas, Antonio G. Marques, and Tianyi Chen"
     venue: "Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong>"
