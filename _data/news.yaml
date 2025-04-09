@@ -43,7 +43,7 @@ news_items:
     selected: y
 
   - item: "I'm grateful to receive the IEEE Signal Processing Society Scholarship"
-    link: "https://signalprocessingsociety.org/community-involvement/sps-scholarship-program"
+    link: "https://signalprocessingsociety.org/gallery/2024-sps-scholarship-recipients"
     date: "Sep 2024"
     selected: y
 

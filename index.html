@@ -88,31 +88,47 @@ My goal is to bridge theory and practice, making AI models more powerful, effici
           width: 100%;
           margin-bottom: 1.5em;  /* spacing between papers */
           table-layout: fixed;   /* ensures columns don’t jump around */
+          border-bottom: 0.5px dashed grey;
         ">
         <!-- The row -->
       <div style="display: table-row;">
-            <!-- Left cell: The badge -->
-          <div class="paper-label" style="
-            display: table-cell;
-            vertical-align: top;
-            width: 8em;           /* set a fixed/adequate width for the label column */
-            white-space: nowrap;  /* keep label text on one line */
+        <!-- Left cell: Figure with overlayed label -->
+    <div style="
+      display: table-cell;
+      vertical-align: top;
+      width: 18em;
+      white-space: nowrap;
+    ">
+      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+        {% if paper.fig %}
+          <img 
+            src="{{ paper.fig | relative_url }}" 
+            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
+          >
+        {% endif %}
+        {% if paper.label %}
+          <span class="label-badge" style="
+            position: absolute;
+            top: -10px;
+            left: 0;
           ">
-          {% if paper.label %}
-            <span class="label-badge">{{paper.label}}</span>
-          {% endif %}
-          </div>
+            {{ paper.label }}
+          </span>
+        {% endif %}
+      </div>
+    </div>
+
           <div class="paper-details" style="
               display: table-cell;
-              vertical-align: top;
+              vertical-align: middle;
               padding-left: 1em; /* space between badge and text */
             ">
             <!-- Paper Title -->
             <p class="title"><b>{{ paper.title }}</b></p>
             <p>{{ paper.authors }}</p>
-            <p><i>{{ paper.venue }}</i>{% if paper.year %}, {{ paper.year }}.{% endif %}
+            <p><i>{{ paper.venue }}</i>{% if paper.year %}, {{ paper.year }}.{% endif %}</p>
             {% if paper.award %}
-            <i class="fa fa-trophy" style="color:#B509AC"></i> <b>{{ paper.award }}</b></p>
+            <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>{{ paper.award }}</b></p>
             {% endif %}
             <div class="paper-buttons">
               {% if paper.paper_pdf %}
@@ -160,31 +176,47 @@ My goal is to bridge theory and practice, making AI models more powerful, effici
           width: 100%;
           margin-bottom: 1.5em;  /* spacing between papers */
           table-layout: fixed;   /* ensures columns don’t jump around */
+          border-bottom: 0.5px dashed grey;
         ">
         <!-- The row -->
       <div style="display: table-row;">
-            <!-- Left cell: The badge -->
-          <div class="paper-label" style="
-            display: table-cell;
-            vertical-align: top;
-            width: 8em;           /* set a fixed/adequate width for the label column */
-            white-space: nowrap;  /* keep label text on one line */
+        <!-- Left cell: Figure with overlayed label -->
+    <div style="
+      display: table-cell;
+      vertical-align: top;
+      width: 18em;
+      white-space: nowrap;
+    ">
+      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+        {% if paper.fig %}
+          <img 
+            src="{{ paper.fig | relative_url }}" 
+            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
+          >
+        {% endif %}
+        {% if paper.label %}
+          <span class="label-badge" style="
+            position: absolute;
+            top: -10px;
+            left: 0;
           ">
-          {% if paper.label %}
-            <span class="label-badge">{{paper.label}}</span>
-          {% endif %}
-          </div>
+            {{ paper.label }}
+          </span>
+        {% endif %}
+      </div>
+    </div>
+
           <div class="paper-details" style="
               display: table-cell;
-              vertical-align: top;
+              vertical-align: middle;
               padding-left: 1em; /* space between badge and text */
             ">
             <!-- Paper Title -->
             <p class="title"><b>{{ paper.title }}</b></p>
             <p>{{ paper.authors }}</p>
-            <p><i>{{ paper.venue }}</i>{% if paper.year %}. {{ paper.year }}.{% endif %}
+            <p><i>{{ paper.venue }}</i>{% if paper.year %}, {{ paper.year }}.{% endif %}</p>
             {% if paper.award %}
-            <i class="fa fa-trophy" style="color:#B509AC"></i> <b>{{ paper.award }}</b></p>
+            <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>{{ paper.award }}</b></p>
             {% endif %}
             <div class="paper-buttons">
               {% if paper.paper_pdf %}
@@ -301,7 +333,9 @@ My goal is to bridge theory and practice, making AI models more powerful, effici
     <div class="tab-pane" id="teaching">
       <!-- Content for Teaching goes here -->
    <ul>
-        <li>Guest Lecturer, RPI ECSE-2500 <a href="https://catalog.rpi.edu/preview_course_nopop.php?catoid=10&coid=16685">Engineering Probability</a>, Fall 2024</li>
+         
+        <li><strong>Guest Lecturer</strong> for RPI ECSE-4964/6964 Distributed Optimization & Machine Learning, Spring 2025</li>
+        <li><strong>Guest Lecturer</strong> for RPI ECSE-2500 <a href="https://catalog.rpi.edu/preview_course_nopop.php?catoid=10&coid=16685">Engineering Probability</a>, Fall 2024</li>
     </ul>
     </div>
     <div class="tab-pane" id="services">

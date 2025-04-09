@@ -1,11 +1,20 @@
 papers:
 
+  - title: "Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance"
+    authors: "Lisha Chen, <strong><u>Quan Xiao</strong></u>, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, Tianyi Chen"
+    venue: "preprints"
+    preprint: "https://arxiv.org/pdf/2504.02854"
+    selected: y
+    label: "arXiv"
+    fig: "./assets/pub_figure/FOOPS.png"
+
   - title: "A First-order Generative Bilevel Optimization Framework for Diffusion Models"
     authors: "<strong><u>Quan Xiao</strong></u>, Hui Yuan, A F M Saif, Gaowen Liu, Ramana Kompella, Mengdi Wang, and Tianyi Chen"
     venue: "preprints"
     preprint: "https://arxiv.org/pdf/2502.08808"
     selected: y
     label: "arXiv"
+    fig: "./assets/pub_figure/bilevel_diffusion.png"
 
   - title: "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions"
     authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Omobayode Fagbohungbe, and Tianyi Chen"
@@ -13,6 +22,7 @@ papers:
     preprint: "https://arxiv.org/pdf/2502.06309"
     selected: y
     label: "arXiv"
+    fig: "./assets/pub_figure/analog_non_ideal.png"
 
   - title: "Pipeline Gradient-based Model Training on Analog In-memory Accelerators"
     authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Hsinyu Tsai, Kaoutar El Maghraoui, and Tianyi Chen"
@@ -20,6 +30,7 @@ papers:
     preprint: "https://arxiv.org/pdf/2410.15155"
     selected: y
     label: "arXiv"
+    fig: "./assets/pub_figure/pipeline.png"
 
   - title: "Unlocking Global Optimality in Bilevel Optimization: A Pilot Study"
     authors: "<strong><u>Quan Xiao</strong></u>, and Tianyi Chen"
@@ -28,6 +39,7 @@ papers:
     year: "2025"
     selected: y
     label: "ICLR"
+    fig: "./assets/pub_figure/global_conv.png"
 
   - title: "A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints"
     authors: "Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Victor M. Tenorio, Fernando Real-Rojas, Antonio G. Marques, and Tianyi Chen"
@@ -37,6 +49,7 @@ papers:
     year: "2024"
     selected: y
     label: "NeurIPS"
+    fig: "./assets/pub_figure/primal-dual.png"
 
   - title: "A Bilevel Optimization Method for Inverse Mean-Field Games"
     authors: "Jiajia Yu, <strong><u>Quan Xiao</strong></u>, Tianyi Chen, and Rongjie Lai"
@@ -45,14 +58,16 @@ papers:
     year: "Aug. 2024."
     selected: y
     label: "Inverse Problems"
+    fig: "./assets/pub_figure/inverse_problem.png"
 
   - title: "A Generalized Alternating Method for Bilevel Learning under the Polyak-Lojasiewicz Condition"
     authors: "<strong><u>Quan Xiao</strong></u>, Songtao Lu, and Tianyi Chen"
-    venue: "Proc. of Neural Information Processing Systems <strong><u>(NeurIPS)</strong></u>"
+    venue: "Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong>"
     paper_pdf: "https://arxiv.org/pdf/2306.02422"
     year: "2023"
     selected: y
     label: "NeurIPS"
+    fig: "./assets/pub_figure/PL.png"
 
   - title: "Lazy Queries Can Reduce Variance in Zeroth-order Optimization"
     authors: "<strong><u>Quan Xiao</strong></u>, Qing Ling, and Tianyi Chen"
@@ -61,6 +76,7 @@ papers:
     year: "Sep. 2023"
     selected: y
     label: "TSP"
+    fig: "./assets/pub_figure/LAZO.png"
 
   - title: "Alternating Implicit Projected SGD and Its Efficient Variants for Equality-constrained Bilevel Optimization"
     authors: "<strong><u>Quan Xiao</strong></u>, Han Shen, Wotao Yin, and Tianyi Chen"
@@ -70,6 +86,7 @@ papers:
     selected: y
     label: "AISTATS"
     code: "https://github.com/hanshen95/AiPOD"
+    fig: "./assets/pub_figure/AiPOD.png"
 
   - title: "Sharp-MAML: Sharpness-Aware Model-Agnostic Meta Learning"
     authors: "Momin Abbas*, <strong><u>Quan Xiao</strong></u>*, Lisha Chen*, Pin-Yu Chen, and Tianyi Chen (* equal contributor)"
@@ -79,6 +96,7 @@ papers:
     selected: y
     label: "ICML"
     code: "https://github.com/mominabbass/Sharp-MAML"
+    fig: "./assets/pub_figure/sharp-MAML.png"
 
   - title: "Federated Multi-armed Bandit via Uncoordinated Exploration"
     authors: "Zirui Yan, <strong><u>Quan Xiao</strong></u>, Tianyi Chen, and Ali Tajer"
@@ -87,6 +105,7 @@ papers:
     year: "2022"
     selected: n
     label: "ICASSP"
+    fig: "./assets/pub_figure/fed_bandit.png"
 
   - title: "A Single-Timescale Method for Stochastic Bilevel Optimization"
     authors: "Tianyi Chen, Yuejiao Sun, <strong><u>Quan Xiao</strong></u>, and Wotao Yin"
@@ -96,6 +115,7 @@ papers:
     year: "2022"
     selected: y
     label: "AISTATS(Oral)"
+    fig: "./assets/pub_figure/stocBiO.png"
 
   - title: "Genome-wide Association Studies of Brain Imaging Data via Weighted Distance Correlations"
     authors: "Canhong Wen, Yuhui Yang, <strong><u>Quan Xiao</strong></u>, Meiyan Huang, and Wenliang Pan"
@@ -105,6 +125,7 @@ papers:
     selected: n
     label: "Bioinformatics"
     code: "https://github.com/yangyuhui0129/wdcor"
+    fig: "./assets/pub_figure/wdcor.png"
 
   - title: "Image denoising via K-SVD with primal-dual active set algorithm"
     authors: "<strong><u>Quan Xiao</strong></u>, Canhong Wen, and Zirui Yan"
@@ -113,6 +134,7 @@ papers:
     year: "2020"
     selected: n
     label: "WACV"
+    fig: "./assets/pub_figure/KSVD.png"
 
 
 
