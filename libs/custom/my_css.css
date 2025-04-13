@@ -65,6 +65,37 @@ h4 {
 .paper .button:hover {
     background: rgba(106, 13, 173, 0.08); /* Purple with 70% opacity */
 }
+
+
+/* ----- mobile override ----- */
+@media (max-width: 750px) {      /* pick any breakpoint you like */
+  /* 1. let each publication flow naturally, one element per line */
+  .paper { 
+    display: block !important;          /* overrides “display: table” */
+    border-bottom: 0.5px dashed grey;   /* keep the separator */
+    margin-bottom: 1.5em;
+  }
+
+  /* 2. the inner “row” wrapper is no longer needed */
+  .paper > div[style*="display: table-row"] {
+    display: block !important;
+  }
+
+  /* 3. image + badge becomes full‑width */
+  .paper .fig-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 0.75em;      /* a little gap before the text */
+  }
+
+  /* 4. details get normal block formatting */
+  .paper-details {
+    display: block !important;  /* overrides table‑cell */
+    padding-left: 0 !important; /* remove the desktop gutter */
+  }
+}
+
+
 .section-header {
   text-transform: uppercase;
   font-size: 1.5rem;

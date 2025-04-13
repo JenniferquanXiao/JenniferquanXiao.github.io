@@ -63,7 +63,7 @@ papers:
 
   - title: "A Bilevel Optimization Method for Inverse Mean-Field Games"
     authors: "Jiajia Yu, <strong><u>Quan Xiao</strong></u>, Tianyi Chen, and Rongjie Lai"
-    venue: "Inverse Problems."
+    venue: "Inverse Problems"
     paper_pdf: "https://arxiv.org/pdf/2401.05539"
     year: "Aug. 2024."
     selected: y
