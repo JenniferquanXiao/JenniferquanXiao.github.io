@@ -2,22 +2,8 @@
 layout: default
 title: Home
 ---
-<!-- ========== BIO ========== -->
-<div class="docs-section" id="bio">
-  <h4>Bio</h4>
-  <p style="margin: 10px; padding: 0px 0px;">
-  I am currently a PhD student at the Department of Electrical, Computer, and Systems Engineering, Rensselaer Polytechnic Institute, and am fortunately advised by <a href="https://chentianyi1991.github.io" target="_blank"> Prof. Tianyi Chen</a>. Prior to that, I was a visiting student at Data and Computer Science Department of Sun Yat-Sen University during 2020-2021, hosted by <a href="http://home.ustc.edu.cn/~qingling/" target="_blank"> Prof. Qing Ling</a>. Previously, I obtained my B.S. degree of Statistics from University of Science and Technology of China in 2020. 
-  </p> 
-  <p>
-  At the core of my research is the question: <b>How can optimization shape the next generation of AI?</b> I focus on optimization and machine learning, particularly <b>bilevel and multi-objective optimization</b>, to develop provably efficient algorithms that advance two key frontiers of AI:
-  <!-- Key Focus Areas -->
-  <ul style="margin: 0px; padding: 10px 15px;">
-    <li style="margin: 0px; padding: 0px;"><strong>Generative Models:</strong> e.g., large language models (LLMs) and diffusion models.</li>
-    <li style="margin: 0px; padding: 0px;"><strong>Next-Generation AI Computing:</strong> e.g., emerging analog devices.</li>
-  </ul>
-My goal is to bridge theory and practice, making AI models more powerful, efficient, and scalable while designing algorithms tailored for emerging AI hardware computing architectures.
-  </p> 
-</div>
+<!-- bio.html (include or part of a page) -->
+{{ site.data.bio.html | raw }}
 
 
 <!-- ========== NEWS ========== -->
@@ -274,154 +260,29 @@ My goal is to bridge theory and practice, making AI models more powerful, effici
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="internship">
-      <ul>
-        <li>
-          <a href="https://www.ibm.com/watson">IBM Thomas J. Watson Research Center</a>
-          <ul>
-            <li>
-              Uncertainty quantification and fine-tuning in LLM. Mentor/Manager: 
-              <a href="https://scholar.google.com/citations?user=pwfVt-MAAAAJ&hl=en">Dr. Debarun Bhattacharjya</a> and managed by 
-              <a href="https://scholar.google.com/citations?user=j54RzcEAAAAJ&hl=en">Dr. Dharmashankar Subramanian</a>, May-Aug, 2024
-            </li>
-            <li>
-              Bilevel optimization with lower-level nonconvexity. Mentor/Manager: 
-              <a href="https://songtaogithub.github.io/">Dr. Songtao Lu</a> and 
-              <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-lhoresh">Dr. Lior Horesh</a>, May-Aug, 2022
-            </li>
-          </ul>
-        </li>
-      </ul>
+      {{ site.data.internship.html | raw }}
     </div>
     <div class="tab-pane" id="visiting">
-      <ul>
-        <li>
-          School of Data and Computer Science, Sun Yat-Sen University
-          <ul>
-            <li>
-              Host: <a href="http://home.ustc.edu.cn/~qingling/">Prof. Qing Ling</a>, August 2020 - July 2021
-            </li>
-          </ul>
-        </li>
-        <li>
-          Department of <a href="https://cmse.msu.edu/">Computational Mathematics, Science and Engineering</a>, Michigan State University
-          <ul>
-            <li>
-              Host: <a href="https://directory.natsci.msu.edu/Directory/Profiles/Person/101084/">Prof. Yuying Xie</a>, July - October, 2019
-            </li>
-          </ul>
-        </li>
-      </ul>
+      {{ site.data.visiting.html | raw }}
     </div>
     <div class="tab-pane" id="talk">
-      <!-- Content for Invited Talk goes here -->
-          <ul>
-        <li><a href="https://www.asilomarsscconf.org/">Asilomar Conference on Signals, Systems, and Computers</a>, Pacific Grove, CA, Nov, 2024
-            <ul>
-                <li>Global Convergence for Bilevel Optimization: A Pilot Study</li>
-            </ul>
-        </li>
-        <li><a href="https://www.asilomarsscconf.org/">Asilomar Conference on Signals, Systems, and Computers</a>, Pacific Grove, CA, Nov, 2023
-            <ul>
-                <li>Solving A Class of Bilevel Optimization Without Lower-level Strong Convexity</li>
-            </ul>
-        </li>
-        <li><a href="https://www.siam.org/conferences/cm/conference/op23">SIAM Conference on Optimization (OP23)</a>, Seattle, WA, June, 2023
-            <ul>
-                <li>Solving A Class of Bilevel Optimization Without Lower-level Strong Convexity</li>
-            </ul>
-        </li>
-    </ul>
+      {{ site.data.talk.html | raw }}
+          
     </div>
     <div class="tab-pane" id="teaching">
-      <!-- Content for Teaching goes here -->
-   <ul>
-         
-        <li><strong>Guest Lecturer</strong> for RPI ECSE-4964/6964 Distributed Optimization & Machine Learning, Spring 2025</li>
-        <li><strong>Guest Lecturer</strong> for RPI ECSE-2500 <a href="https://catalog.rpi.edu/preview_course_nopop.php?catoid=10&coid=16685">Engineering Probability</a>, Fall 2024</li>
-    </ul>
+      {{ site.data.teaching.html | raw }}
     </div>
     <div class="tab-pane" id="services">
-      <!-- Content for Services goes here -->
-          <ul>
-        <li>Session Co-Chair at the 2024 Asilomar Conference on Signals, Systems, and Computers</li>
-        <li>Program Committee Member of AAAI 2025</li>
-        <li>Reviewer of AISTATS (2022-2025), NeurIPS (2023 – 2024), ICLR (2024–2025), ICML (2024)</li>
-        <li>Reviewer of IEEE Transactions on Signal Processing, IEEE Transactions on Networking</li>
-    </ul>
+      {{ site.data.service.html | raw }}
     </div> 
   </div> <!-- end of .tab-content -->
 </div> <!-- end of .docs-section -->
-    
 
-    <!-- </ul>
-        <h5>Internship</h5>
-    <ul>
-        <li>
-            <a href="https://www.ibm.com/watson">IBM Thomas J. Watson Research Center</a>
-            <ul>
-                <li>Uncertainty quantification and fine-tuning in LLM. Mentor/Manager: <a href="https://scholar.google.com/citations?user=pwfVt-MAAAAJ&hl=en">Dr. Debarun Bhattacharjya</a> and managed by <a href="https://scholar.google.com/citations?user=j54RzcEAAAAJ&hl=en">Dr. Dharmashankar Subramanian</a>, May-Aug, 2024</li>
-                <li>Bilevel optimization with lower-level nonconvexity. Mentor/Manager: <a href="https://songtaogithub.github.io/">Dr. Songtao Lu</a> and <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-lhoresh">Dr. Lior Horesh</a>, May-Aug, 2022</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h5>Visiting Experience</h5>
-    <ul>
-        <li>School of Data and Computer Science, Sun Yat-Sen University
-            <ul>
-                <li>Host: <a href="http://home.ustc.edu.cn/~qingling/">Prof. Qing Ling</a>, August 2020 - July 2021</li>
-            </ul>
-        </li>
-        <li>Department of <a href="https://cmse.msu.edu/">Computational Mathematics, Science and Engineering</a>, Michigan State University
-            <ul>
-                <li>Host: <a href="https://cmse.msu.edu/directory/faculty/yuying-xie/">Prof. Yuying Xie</a>, July - October, 2019</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h5>Invited Talk</h5>
-    <ul>
-        <li><a href="https://www.asilomarsscconf.org/">Asilomar Conference on Signals, Systems, and Computers</a>, Pacific Grove, CA, Nov, 2024
-            <ul>
-                <li>Global Convergence for Bilevel Optimization: A Pilot Study</li>
-            </ul>
-        </li>
-        <li><a href="https://www.asilomarsscconf.org/">Asilomar Conference on Signals, Systems, and Computers</a>, Pacific Grove, CA, Nov, 2023
-            <ul>
-                <li>Solving A Class of Bilevel Optimization Without Lower-level Strong Convexity</li>
-            </ul>
-        </li>
-        <li><a href="https://www.siam.org/conferences/cm/conference/op23">SIAM Conference on Optimization (OP23)</a>, Seattle, WA, June, 2023
-            <ul>
-                <li>Solving A Class of Bilevel Optimization Without Lower-level Strong Convexity</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h5>Teaching</h5>
-    <ul>
-        <li>Guest Lecturer, RPI ECSE-2500 <a href="https://catalog.rpi.edu/preview_course_nopop.php?catoid=10&coid=16685">Engineering Probability</a>, Fall 2024</li>
-    </ul>
-
-    <h5>Services</h5>
-    <ul>
-        <li>Session Co-Chair at the 2024 Asilomar Conference on Signals, Systems, and Computers</li>
-        <li>Program Committee Member of AAAI 2025</li>
-        <li>Reviewer of AISTATS (2022-2025), NeurIPS (2023 – 2024), ICLR (2024–2025), ICML (2024)</li>
-        <li>Reviewer of IEEE Transactions on Signal Processing, IEEE Transactions on Networking</li>
-    </ul>
-</div> -->
 
 <!-- ========== Award ========== -->  
 <div class="docs-section" id="Award">
     <h4>Award</h4>
-    <ul>
-        <li><a href="https://signalprocessingsociety.org/community-involvement/sps-scholarship-program">IEEE Signal Processing Society Scholarship</a>, 2024</li>
-        <li><a href="https://ecse.rpi.edu/news/ecse-students-win-belsky-award-computational-sciences-and-engineering">Belsky Award for Computational Sciences and Engineering in Rensselaer Polytechnic Institute</a>, 2023</li>
-        <li>NeurIPS 2023 scholar award</li>
-        <li>ICML 2022 participation grant</li>
-        <li>The excellent student scholarship of the University of Science and Technology of China, 2017-2019</li>
-    </ul>
+    {{ site.data.award.html | raw }}
 </div>
 
 

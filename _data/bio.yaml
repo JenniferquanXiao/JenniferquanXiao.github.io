@@ -1,0 +1,33 @@
+# _data/bio.yaml
+html: |
+  <!-- ========== BIO ========== -->
+  <section class="bio‑section">
+    <h4>Bio</h4>
+    <div class="bio‑intro">
+      <p>
+        I am currently a PhD student at the Department of Electrical, Computer, and Systems Engineering,  
+        Rensselaer Polytechnic Institute, and am fortunately advised by
+        <a href="https://chentianyi1991.github.io" target="_blank">Prof.&nbsp;Tianyi Chen</a>.  
+        Prior to that, I was a visiting student at the Data & Computer Science Department of Sun Yat‑Sen University (2020‑2021),
+        hosted by <a href="http://home.ustc.edu.cn/~qingling/" target="_blank">Prof.&nbsp;Qing Ling</a>.  
+        I earned my B.S. in Statistics from USTC in 2020.
+      </p>
+    </div>
+    
+    <div class="bio‑highlight">
+      <p>At the core of my research is the question: <strong>How can optimization shape the next generation of AI?</strong></p>
+    </div>
+
+    <div class="bio‑focus">
+      <p>I focus on optimization and machine learning, particularly <strong>bilevel</strong> and <strong>multi‑objective optimization</strong> to develop provably efficient algorithms that advance two key frontiers of AI:</p>
+      <ul class="frontiers">
+        <li><strong>Generative Models</strong>: LLMs, diffusion models</li>
+        <li><strong>Next‑Generation AI Computing</strong>: emerging analog devices</li>
+      </ul>
+    </div>
+
+    <div class="bio‑closing">
+      <p>My goal is to bridge theory and practice, making AI models more powerful, efficient, and scalable while designing algorithms tailored for emerging AI hardware computing architectures.</p>
+    </div>
+  </section>
+

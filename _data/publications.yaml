@@ -1,7 +1,7 @@
 papers:
 
   - title: "Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance"
-    authors: "Lisha Chen, <strong><u>Quan Xiao</strong></u>, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, Tianyi Chen"
+    authors: "Lisha Chen, <strong><u>Quan Xiao</strong></u>, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, and Tianyi Chen"
     venue: "preprints"
     preprint: "https://arxiv.org/pdf/2504.02854"
     selected: y

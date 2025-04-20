@@ -273,3 +273,50 @@ h4 {
   font-size: inherit;
   line-height: inherit;
 }
+
+.bio‑section {
+  border-top: 1px solid #eee;
+  padding: 3rem 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.bio‑intro p,
+.bio‑closing p {
+  margin-bottom: 1.5rem;
+}
+
+.bio‑highlight {
+  background: #f0fbff;
+  border-left: 4px solid #B509AC;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem 0;
+}
+
+.bio‑highlight p {
+  color: #B509AC;
+  margin: 0;
+}
+
+.frontiers {
+  list-style: none;
+  padding: 0;
+  padding-left: 4rem;
+  margin: 0rem 0 0rem;
+}
+
+.frontiers li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.rem;
+}
+
+.frontiers li::before {
+  content: "◉";
+  position: absolute;
+  left: 0;
+  top: 0.75em;
+  color: #B509AC;
+  font-size: 0.8rem;
+}
+
