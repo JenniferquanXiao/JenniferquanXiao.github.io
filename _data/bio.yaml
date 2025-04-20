@@ -5,12 +5,13 @@ html: |
     <h4>Bio</h4>
     <div class="bio‑intro">
       <p>
-        I am currently a PhD student at the Department of Electrical, Computer, and Systems Engineering,  
-        Rensselaer Polytechnic Institute, and am fortunately advised by
+        I am currently a PhD student at the <a href="https://ecse.rpi.edu" target="_blank">Department of Electrical, Computer, and Systems Engineering</a>,
+        <a href="https://www.rpi.edu" target="_blank">Rensselaer Polytechnic Institute</a> (RPI), 
+        and am fortunately advised by
         <a href="https://chentianyi1991.github.io" target="_blank">Prof.&nbsp;Tianyi Chen</a>.  
         Prior to that, I was a visiting student at the Data & Computer Science Department of Sun Yat‑Sen University (2020‑2021),
         hosted by <a href="http://home.ustc.edu.cn/~qingling/" target="_blank">Prof.&nbsp;Qing Ling</a>.  
-        I earned my B.S. in Statistics from USTC in 2020.
+        I earned my B.S. in Statistics from <a href="https://en.ustc.edu.cn" target="_blank">University of Science and Technology of China</a>(USTC) in 2020.
       </p>
     </div>
     
