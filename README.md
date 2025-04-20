@@ -1,17 +1,17 @@
 ## Quan Xiao's Website
 
-### Thanks
-This website is based on a template by Martin Saveski and Mor Naaman using Jekyll. Improvement ideas were taken from the al-folio theme.
+### Acknowledgement
+This website is built on a Jekyll template by Martin Saveski, Mor Naaman, and Tianyi Chen, with improvement ideas borrowed from the al‑folio theme.
 
 ### Updates guidance
-Change one of the files in `_data`, unless you are changing the look of the website.
+Please modify one of the files in `_data`—unless you plan to change the website’s appearance.
 
 Test changes with:
 ```
 jekyll serve
 ```
 
-If there has a version of jekyll serve been running, do the following
+If a `jekyll serve` process is already running, please follow these steps:
 ```
 lsof -i :4000
 kill -9 <PID>
