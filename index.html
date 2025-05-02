@@ -27,13 +27,27 @@ title: Home
       {{ news_item.item }}
       {% if news_item.link %}
       <a href="{{ news_item.link | default: '#' }}" target="_blank">
-        {{ news_item.link_text | default: "(more info)" }}
-      </a>.
+        {{ news_item.link_text | default: "(more info)" }}.
+      </a>
+      {% endif %}
+      {% if news_item.links %}
+      {% comment %} render each link, separating with comma and ending with a period {% endcomment %}
+      {% assign link_count = news_item.links | size %}
+      {% for link in news_item.links %}
+        <a href="{{ link.url }}" target="_blank">{{ link.text }}</a>{% if forloop.index < link_count %}, {% else %}.{% endif %}
+      {% endfor %}
       {% endif %}
     </p>
     {% endfor %}
     </div>
 
+     {% if news_item.links %}
+        {% for link in news_item.links %}
+        <a href="{{ news_item.link | default: '#' }}" target="_blank">
+          {{ news_item.link_text | default: "(more info)" }}.
+        </a>
+        {% endfor %}
+      {% endif %}
 
   <div class="tab-pane" id="news-old">
       {% assign old_news = site.data.news.news_items | where: "selected", "n" %}

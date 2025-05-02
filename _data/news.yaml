@@ -1,5 +1,21 @@
 news_items:
 
+  - item: "Two papers have been accepted by ICML 2025! One on bilevel hyperparameter tuning for diffusion models (Poster) and the other on preference-guided multi-objective optimization (Spotlight)."
+    date: "May 2025"
+    links:
+      - url: "https://arxiv.org/pdf/2502.08808"
+        text: "A First-order Generative Bilevel Optimization Framework for Diffusion Models"
+      - url: "https://arxiv.org/pdf/2504.02854"
+        text: "Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance"
+    selected: y
+
+  - item: "Our paper on Preference-guided multi-objective learning is available. 
+           We cast preference-guided multi-objective learning as a semi-vectorial bilevel problem with a vector-valued lower-level objective to ensure its pareto optimality and introduce an efficient smooth‐penalty algorithm to solve it."
+    date: "March 2025"
+    link: "https://arxiv.org/pdf/2504.02854"
+    link_text: "Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance"
+    selected: y
+
   - item: "Our paper on Analog training for general devices is available. 
            In this work, we demonstrate that Analog SGD has an implicit bias and we analyze the convergence property of Tiki-Taka, a residual learning algorithm for analog training, from the bilevel perspective."
     date: "Feb 2025"
@@ -13,12 +29,13 @@ news_items:
     link_text: "A First-order Generative Bilevel Optimization Framework for Diffusion Models"
     selected: y
 
-  - item: "Our paper Unlocking Global Optimality in Bilevel Optimization: A Pilot Study has been accepted by ICLR 2025!"
+  - item: "Our paper has been accepted by ICLR 2025!"
     link: "https://arxiv.org/pdf/2408.16087"
     date: "Jan 2025"
+    link_text: "Unlocking Global Optimality in Bilevel Optimization: A Pilot Study "
     selected: y
 
-  - item: "Our paper On Penalty-based Bilevel Gradient Descent Method has been accepted by Mathematical Programming (Series A)! Final version is coming:"
+  - item: "Our paper has been accepted by Mathematical Programming (Series A)! Final version is coming:"
     link: "https://link.springer.com/epdf/10.1007/s10107-025-02194-4?sharing_token=pLYSrJwkhw9VSg8txR3u5fe4RwlQNchNByi7wbcMAY4HaaInq1P81aQ_9l8ZPyC6izy4DDZVDYpiwZFlVNHRoGjtdDTEjunc04GJusNn-PzXXqtLweCDWvLsJchhNjypOhvoGDrMH86GeaxDoHB6gIsQfPYSl7p8IWVARexpo3E%3D"
     date: "Dec 2024"
     link_text: "On Penalty-based Bilevel Gradient Descent Method"
@@ -34,45 +51,45 @@ news_items:
     link: "https://arxiv.org/pdf/2408.16087"
     date: "Nov 2024"
     link_text: "Unlocking Global Optimality in Bilevel Optimization: A Pilot Study"
-    selected: y
+    selected: n
 
   - item: "Oct 2024: Our paper on optimization foundation for pipeline analog training is now available."
     link: "https://arxiv.org/pdf/2410.15155"
     date: "Oct 2024"
     link_text: "Pipeline Gradient-based Model Training on Analog In-memory Accelerators"
-    selected: y
+    selected: n
 
   - item: "I'm grateful to receive the IEEE Signal Processing Society Scholarship"
     link: "https://signalprocessingsociety.org/gallery/2024-sps-scholarship-recipients"
     date: "Sep 2024"
-    selected: y
+    selected: n
 
   - item: "Our paper on coupled constrained bilevel optimization was accepted by NeurIPS 2024"
     link: "https://arxiv.org/pdf/2406.10148"
     date: "Sep 2024"
     link_text: "A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints"
-    selected: y
+    selected: n
 
   - item: "Our paper on global optimality for bilevel optimization is available."
     link: "https://arxiv.org/pdf/2408.16087"
     date: "Sep 2024"
     link_text: "Unlocking Global Optimality in Bilevel Optimization: A Pilot Study"
-    selected: y
+    selected: n
 
   - item: "Our paper A Bilevel Optimization Method for Inverse Mean-Field Games is accepted by Inverse Problems."
     link: "https://arxiv.org/pdf/2401.05539"
     date: "Aug 2024"
-    selected: y
+    selected: n
 
   - item: "Our paper on bilevel optimization with coupled constraints is available."
     link: "https://arxiv.org/pdf/2406.10148"
     date: "June 2024"
     link_text: "A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints"
-    selected: y
+    selected: n
 
   - item: "I will join IBM Research as a visiting scholar this summer, under the mentorship of Dr. Debarun Bhattacharjya and managed by Dr. Dharmashankar Subramanian."
     date: "May 2024"
-    selected: y
+    selected: n
 
   - item: "Our paper is available:"
     link: "https://arxiv.org/pdf/2401.05539"

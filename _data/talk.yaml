@@ -1,6 +1,11 @@
 # _data/talk.yaml
 html: |
     <ul>
+        <li><a href="https://cpal.cc">Conference on Parsimony and Learning (CPAL)</a>, Stanford, CA, March, 2025
+            <ul>
+                <li>Global Convergence for Bilevel Optimization: A Pilot Study</li>
+            </ul>
+        </li>
         <li><a href="https://www.asilomarsscconf.org/">Asilomar Conference on Signals, Systems, and Computers</a>, Pacific Grove, CA, Nov, 2024
             <ul>
                 <li>Global Convergence for Bilevel Optimization: A Pilot Study</li>

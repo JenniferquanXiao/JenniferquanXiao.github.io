@@ -1,19 +1,22 @@
 papers:
 
   - title: "Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance"
-    authors: "Lisha Chen, <strong><u>Quan Xiao</strong></u>, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, and Tianyi Chen"
-    venue: "preprints"
+    authors: "Lisha Chen, <strong><u>Quan Xiao</strong></u>, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, Tianyi Chen"
+    venue: "Proc. of International Conference on Machine Learning <strong>(ICML)</strong>"
     preprint: "https://arxiv.org/pdf/2504.02854"
+    year: "2025"
+    award:  "(Spotlight, top 2.6% of all submissions)"   
     selected: y
-    label: "arXiv"
+    label: "ICML(Spotlight)"
     fig: "./assets/pub_figure/FOOPS.png"
 
   - title: "A First-order Generative Bilevel Optimization Framework for Diffusion Models"
     authors: "<strong><u>Quan Xiao</strong></u>, Hui Yuan, A F M Saif, Gaowen Liu, Ramana Kompella, Mengdi Wang, and Tianyi Chen"
-    venue: "preprints"
+    venue: "Proc. of International Conference on Machine Learning <strong>(ICML)</strong>"
     preprint: "https://arxiv.org/pdf/2502.08808"
+    year: "2025"
     selected: y
-    label: "arXiv"
+    label: "ICML"
     fig: "./assets/pub_figure/bilevel_diffusion.png"
 
   - title: "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions"
