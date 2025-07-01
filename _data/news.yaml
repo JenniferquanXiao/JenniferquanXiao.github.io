@@ -1,5 +1,6 @@
 news_items:
 
+
   - item: "Two papers have been accepted by ICML 2025! One on bilevel hyperparameter tuning for diffusion models (Poster) and the other on preference-guided multi-objective optimization (Spotlight)."
     date: "May 2025"
     links:
@@ -8,6 +9,13 @@ news_items:
       - url: "https://arxiv.org/pdf/2504.02854"
         text: "Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance"
     selected: y
+
+  - item: "Our paper on LLM during my summer internship at IBM Research has been accepted by UAI 2025! "
+    date: "May 2025"
+    links:
+      - url: "https://arxiv.org/pdf/2506.21849"
+        text: "The Consistency Hypothesis in Uncertainty Quantification for Large Language Models"
+    selected: y  
 
   - item: "Our paper on Preference-guided multi-objective learning is available. 
            We cast preference-guided multi-objective learning as a semi-vectorial bilevel problem with a vector-valued lower-level objective to ensure its pareto optimality and introduce an efficient smooth‐penalty algorithm to solve it."
