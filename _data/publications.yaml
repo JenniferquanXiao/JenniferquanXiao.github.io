@@ -21,14 +21,6 @@ papers:
     label: "ICML"
     fig: "./assets/pub_figure/bilevel_diffusion.png"
 
-  - title: "The Consistency Hypothesis in Uncertainty Quantification for Large Language Models"
-    authors: "<strong><u>Quan Xiao</strong></u>, Debarun Bhattacharjya, Balaji Ganesan, Radu Marinescu, Katsiaryna Mirylenka, Nhan H Pham, Michael Glass, Junkyu Lee"
-    venue: "Proc. of Conference on Uncertainty in Artificial Intelligence <strong>(UAI)</strong>"
-    preprint: "https://arxiv.org/pdf/2506.21849"
-    year: "2025"  
-    selected: n
-    label: "UAI"
-    fig: "./assets/pub_figure/violinplot_QA.png"
 
   - title: "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions"
     authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Omobayode Fagbohungbe, and Tianyi Chen"
