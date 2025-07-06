@@ -72,7 +72,7 @@ papers:
     venue: "Inverse Problems"
     paper_pdf: "https://arxiv.org/pdf/2401.05539"
     year: "Aug. 2024"
-    selected: n 
+    selected: y 
     label: "Inverse Problems"
     fig: "./assets/pub_figure/inverse_problem.png"
 
