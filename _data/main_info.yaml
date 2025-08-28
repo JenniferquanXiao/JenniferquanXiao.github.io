@@ -1,9 +1,9 @@
 name: "Quan Xiao"
-title: "Ph.D. candidate in <br>
-<a href=https://ecse.rpi.edu target='_blank'>Department of Electrical, Computer, and Systems Engineering</a> <br>
-<a href=https://www.rpi.edu target='_blank'>Rensselaer Polytechnic Institute</a>"
+title: "Ph.D. student in <br>
+<a href=https://www.engineering.cornell.edu/ece/ target='_blank'>Department of Electrical and Computer Engineering</a> <br>
+<a href=https://www.cornell.edu target='_blank'>Cornell University and Cornell Tech</a>"
 email: "quanx1808&#64;gmail.com"
-address: "Address: 110 8th Street, Troy, New York, 12180"
+address: "Address: 2 W Loop Rd, New York, NY, 10044"
 profile_pic: "/assets/Me.jpg"
 #bsky: "https://informor.bsky.social"
 #threads: "https://www.threads.net/@XXX"
@@ -13,4 +13,4 @@ github: "https://github.com/JenniferquanXiao"
 google_scholar: "https://scholar.google.com/citations?user=WOSGBi0AAAAJ"
 #mastodon: "https://hci.social/@XXX"
 google_analystics_tracking_id: 'G-2JNE6ZD4DP'
-cv: "/assets/Quan_CV-May25.pdf"
+cv: "/assets/Quan_CV-Aug25.pdf"
