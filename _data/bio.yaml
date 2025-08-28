@@ -4,8 +4,8 @@ html: |
     <h4>Bio</h4>
     <div class="bio‑intro">
       <p>
-        I am currently a PhD student in <a href="https://www.engineering.cornell.edu/ece/" target="_blank">Electrical and Computer Engineering</a> at <a href="https://www.cornell.edu" target="_blank">Cornell University</a>
-        on <a href="https://tech.cornell.edu" target="_blank">Cornell Tech Campus</a>, 
+        I am currently a PhD student in <a href="https://www.engineering.cornell.edu/ece/" target="_blank">Electrical and Computer Engineering</a> at <a href="https://www.cornell.edu" target="_blank">Cornell University</a>, 
+        based at the <a href="https://tech.cornell.edu" target="_blank">Cornell Tech Campus</a> in New York City, 
         and am fortunately advised by
         <a href="https://chentianyi1991.github.io" target="_blank">Prof.&nbsp;Tianyi Chen</a>.  
         Prior to that, I have spent four years at the <a href=https://ecse.rpi.edu target='_blank'>Rensselaer Polytechnic Institute</a> and transferred with my advisor.  
@@ -20,8 +20,8 @@ html: |
     <div class="bio‑focus">
       <p>I focus on optimization and machine learning, particularly <strong>bilevel</strong> and <strong>multi‑objective optimization</strong> to develop provably efficient algorithms that advance two key frontiers of AI:</p>
       <ul class="frontiers">
-        <li><strong>Generative Models</strong>: LLMs, diffusion models</li>
-        <li><strong>Next‑Generation AI Computing</strong>: emerging analog devices</li>
+        <li><strong>Generative Models</strong>: multimodal large language models, diffusion models</li>
+        <li><strong>Next‑Generation AI Computing</strong>: emerging energy-efficient analog devices</li>
       </ul>
     </div>
 

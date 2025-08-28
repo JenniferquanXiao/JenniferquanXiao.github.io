@@ -320,3 +320,25 @@ h4 {
   font-size: 0.8rem;
 }
 
+.education {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.education li {
+  display: flex;
+  gap: 1rem;          /* spacing between year and details */
+  margin-bottom: 0.5rem;
+}
+
+.education .year {
+  width: 110px;       /* fixed width so all years align */
+  font-weight: bold;
+  color: #555;
+}
+
+.education .details {
+  flex: 1;            /* take remaining space */
+}
+
