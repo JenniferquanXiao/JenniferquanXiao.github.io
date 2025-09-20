@@ -1,5 +1,13 @@
 news_items:
 
+  - item: "Two papers have been accepted by NeurIPS 2025! An oral presentation on theoretical foundation for Analog in-memory training and the other on efficient bilevel optimization tailored for LLM fine-tuning (Poster)."
+    date: "Sep 2025"
+    links:
+      - url: "https://arxiv.org/pdf/2502.06309"
+        text: "Analog In-memory Training on General Non-ideal Resistive Elements: Understanding the Impact of Response Functions"
+      - url: "https://arxiv.org/pdf/2507.20400"
+        text: "Beyond Value Functions: Single-Loop Bilevel Optimization under Flatness Conditions"
+    selected: y
 
   - item: "Two papers have been accepted by ICML 2025! One on bilevel hyperparameter tuning for diffusion models (Poster) and the other on preference-guided multi-objective optimization (Spotlight)."
     date: "May 2025"
@@ -19,7 +27,7 @@ news_items:
     selected: y
 
   - item: "Our paper on Analog training for general devices is available. 
-           In this work, we demonstrate that Analog SGD has an implicit bias and we analyze the convergence property of Tiki-Taka, a residual learning algorithm for analog training, from the bilevel perspective."
+           In this work, we demonstrate that Analog SGD has an implicit bias and we propose a residual learning algorithm for analog training, from the bilevel perspective."
     date: "Feb 2025"
     link: "https://arxiv.org/pdf/2502.06309"
     link_text: "Analog In-memory Training on General Non-ideal Resistive Elements: Understanding the Impact of Response Functions"

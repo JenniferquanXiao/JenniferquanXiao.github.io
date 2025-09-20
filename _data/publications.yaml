@@ -1,34 +1,42 @@
 papers:
 
+  - title: "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions"
+    authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Omobayode Fagbohungbe, and Tianyi Chen"
+    venue: "Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong>"
+    preprint: "https://arxiv.org/pdf/2502.06309"
+    selected: y
+    award:  "(Oral, top 0.3% of all submissions)"
+    label: "NeurIPS (Oral)"
+    fig: "./assets/pub_figure/analog_non_ideal.png"
+
+  - title: "Beyond Value Functions: Single-Loop Bilevel Optimization under Flatness Conditions"
+    authors: "Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Lisha Chen, and Tianyi Chen"
+    venue: "Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong>"
+    preprint: "https://arxiv.org/pdf/2507.20400"
+    selected: y
+    label: "NeurIPS"
+    fig: "./assets/pub_figure/PBGD_free.png"
 
   - title: "Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance"
     authors: "Lisha Chen, <strong><u>Quan Xiao</strong></u>, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, Tianyi Chen"
     venue: "Proc. of International Conference on Machine Learning <strong>(ICML)</strong>"
-    preprint: "https://arxiv.org/pdf/2504.02854"
+    paper_pdf: "https://arxiv.org/pdf/2504.02854"
     year: "2025"
     award:  "(Spotlight, top 2.6% of all submissions)"   
     selected: y
-    label: "ICML(Spotlight)"
+    label: "ICML (Spotlight)"
     fig: "./assets/pub_figure/FOOPS.png"
 
   - title: "A First-order Generative Bilevel Optimization Framework for Diffusion Models"
     authors: "<strong><u>Quan Xiao</strong></u>, Hui Yuan, A F M Saif, Gaowen Liu, Ramana Kompella, Mengdi Wang, and Tianyi Chen"
     venue: "Proc. of International Conference on Machine Learning <strong>(ICML)</strong>"
-    preprint: "https://arxiv.org/pdf/2502.08808"
+    paper_pdf: "https://arxiv.org/pdf/2502.08808"
     year: "2025"
     code: "https://github.com/afmsaif/bilevel_diffusion"
     selected: y
     label: "ICML"
     fig: "./assets/pub_figure/bilevel_diffusion.png"
 
-
-  - title: "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions"
-    authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Omobayode Fagbohungbe, and Tianyi Chen"
-    venue: "preprints"
-    preprint: "https://arxiv.org/pdf/2502.06309"
-    selected: y
-    label: "arXiv"
-    fig: "./assets/pub_figure/analog_non_ideal.png"
 
   - title: "Pipeline Gradient-based Model Training on Analog In-memory Accelerators"
     authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Hsinyu Tsai, Kaoutar El Maghraoui, and Tianyi Chen"
@@ -130,7 +138,7 @@ papers:
     award:  "(Oral, top 2% of all submissions)"    
     year: "2022"
     selected: y
-    label: "AISTATS(Oral)"
+    label: "AISTATS (Oral)"
     fig: "./assets/pub_figure/stocBiO.png"
 
   - title: "Genome-wide Association Studies of Brain Imaging Data via Weighted Distance Correlations"
