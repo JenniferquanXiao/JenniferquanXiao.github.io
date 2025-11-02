@@ -1,9 +1,10 @@
 # _data/award.yaml
 html: |
     <ul>
+        <li>NeurIPS top reviewer, 2025</li>
         <li><a href="https://signalprocessingsociety.org/community-involvement/sps-scholarship-program">IEEE Signal Processing Society Scholarship</a>, 2024</li>
         <li><a href="https://ecse.rpi.edu/news/ecse-students-win-belsky-award-computational-sciences-and-engineering">Belsky Award for Computational Sciences and Engineering in Rensselaer Polytechnic Institute</a>, 2023</li>
-        <li>NeurIPS 2023 scholar award</li>
-        <li>ICML 2022 participation grant</li>
+        <li>NeurIPS scholar award, 2023</li>
+        <li>ICML participation grant, 2022</li>
         <li>The excellent student scholarship of the University of Science and Technology of China, 2017-2019</li>
     </ul>
