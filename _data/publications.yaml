@@ -6,6 +6,7 @@ papers:
     preprint: "https://arxiv.org/pdf/2502.06309"
     selected: y
     award:  "(Oral, top 0.3% of all submissions)"
+    code: "https://github.com/Zhaoxian-Wu/analog-training"
     label: "NeurIPS (Oral)"
     fig: "./assets/pub_figure/analog_non_ideal.png"
 
