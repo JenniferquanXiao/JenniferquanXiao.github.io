@@ -8,6 +8,7 @@ papers:
     award:  "(Oral, top 0.3% of all submissions)"
     code: "https://github.com/Zhaoxian-Wu/analog-training"
     label: "NeurIPS (Oral)"
+    year: "2025"
     fig: "./assets/pub_figure/analog_non_ideal.png"
 
   - title: "Beyond Value Functions: Single-Loop Bilevel Optimization under Flatness Conditions"
@@ -16,6 +17,7 @@ papers:
     preprint: "https://arxiv.org/pdf/2507.20400"
     selected: y
     label: "NeurIPS"
+    year: "2025"
     fig: "./assets/pub_figure/PBGD_free.png"
 
   - title: "Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance"
@@ -42,6 +44,7 @@ papers:
   - title: "Pipeline Gradient-based Model Training on Analog In-memory Accelerators"
     authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Hsinyu Tsai, Kaoutar El Maghraoui, and Tianyi Chen"
     venue: "preprints"
+    year: "2024"
     preprint: "https://arxiv.org/pdf/2410.15155"
     selected: y
     label: "arXiv"
