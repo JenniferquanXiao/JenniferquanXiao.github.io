@@ -1,5 +1,20 @@
 news_items:
 
+  - item: "Our paper on efficient ananlog training has been accepted by ICML 2026! In this work, we studied how to efficiently estimate the reference point and compensate for the asymmetry bias in analog training."
+    date: "Apr 2026"
+    link: "https://arxiv.org/pdf/2602.21321"
+    link_text: "Dynamic Symmetric Point Tracking: Tackling Non-ideal Reference in Analog In-memory Training"
+    selected: y
+
+  - item: "Our work on analog training was featured as 'Researchers Tackle AI’s Energy Problem with a Greener Fix' on the "
+    date: "Dec 2025"
+    links:
+      - url: "https://tech.cornell.edu/news/ai-energy-analog-in-memory-computing/"
+        text: "Cornell Tech website"
+      - url: "https://news.cornell.edu/stories/2025/12/researchers-tackle-ais-energy-problem-greener-fix"
+        text: "Cornell Chronicle"
+    selected: y
+
   - item: "Two papers have been accepted by NeurIPS 2025! An <strong>oral presentation</strong> on theoretical foundation for Analog in-memory training and the other on efficient bilevel optimization tailored for LLM fine-tuning."
     date: "Sep 2025"
     links:

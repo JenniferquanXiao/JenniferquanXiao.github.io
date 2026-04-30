@@ -1,5 +1,15 @@
 papers:
 
+  - title: "Dynamic Symmetric Point Tracking: Tackling Non-ideal Reference in Analog In-memory Training"
+    authors: "<strong><u>Quan Xiao</strong></u>*, Jindan Li*, Zhaoxian Wu, Tayfun Gokmen, and Tianyi Chen"
+    venue: "Proc. of International Conference on Machine Learning <strong>(ICML)</strong>"
+    preprint: "https://arxiv.org/pdf/2602.21321"
+    selected: y
+    label: "ICML"
+    year: "2026"
+    fig: "./assets/pub_figure/RIDER.png"
+
+
   - title: "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions"
     authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Omobayode Fagbohungbe, and Tianyi Chen"
     venue: "Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong>"
@@ -41,15 +51,6 @@ papers:
     fig: "./assets/pub_figure/bilevel_diffusion.png"
 
 
-  - title: "Pipeline Gradient-based Model Training on Analog In-memory Accelerators"
-    authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Hsinyu Tsai, Kaoutar El Maghraoui, and Tianyi Chen"
-    venue: "preprints"
-    year: "2024"
-    preprint: "https://arxiv.org/pdf/2410.15155"
-    selected: y
-    label: "arXiv"
-    fig: "./assets/pub_figure/pipeline.png"
-
   - title: "Unlocking Global Optimality in Bilevel Optimization: A Pilot Study"
     authors: "<strong><u>Quan Xiao</strong></u>, and Tianyi Chen"
     venue: "Proc. of International Conference on Learning Representations <strong>(ICLR)</strong>"
@@ -69,6 +70,15 @@ papers:
     label: "MP"
     fig: "./assets/pub_figure/PBGD1.png"
 
+  - title: "On the Convergence Theory of Pipeline Gradient-based Analog In-memory Training"
+    authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Hsinyu Tsai, Kaoutar El Maghraoui, and Tianyi Chen"
+    venue: "IEEE Journal on Selected Areas in Information Theory"
+    year: "2026"
+    preprint: "https://arxiv.org/pdf/2410.15155"
+    selected: n
+    label: "JSAIT"
+    fig: "./assets/pub_figure/pipeline.png"
+
   - title: "A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints"
     authors: "Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Victor M. Tenorio, Fernando Real-Rojas, Antonio G. Marques, and Tianyi Chen"
     venue: "Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong>"
@@ -84,7 +94,7 @@ papers:
     venue: "Inverse Problems"
     paper_pdf: "https://arxiv.org/pdf/2401.05539"
     year: "Aug. 2024"
-    selected: y 
+    selected: n 
     label: "Inverse Problems"
     fig: "./assets/pub_figure/inverse_problem.png"
 
@@ -102,7 +112,7 @@ papers:
     venue: "IEEE Transactions on Signal Processing"
     paper_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10256140&tag=1"
     year: "Sep. 2023"
-    selected: y 
+    selected: n 
     label: "TSP"
     fig: "./assets/pub_figure/LAZO.png"
 
@@ -111,7 +121,7 @@ papers:
     venue: "<a href=https://proceedings.mlr.press/v206/xiao23a.html target='_blank'>A short version</a> was accepted by Proc. of Intl. Conf. on Artificial Intelligence and Statistics <strong>(AISTATS)</strong>"
     paper_pdf: "https://arxiv.org/pdf/2211.07096"
     year: "2023"
-    selected: y
+    selected: n
     label: "AISTATS"
     code: "https://github.com/hanshen95/AiPOD"
     fig: "./assets/pub_figure/AiPOD.png"
