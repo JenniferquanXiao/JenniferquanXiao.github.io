@@ -13,10 +13,9 @@ news_items:
     link_text: "NYC Ops Day"
     selected: y
 
-  - item: "I will attend ITA workshop and present our work on the Graduation Day"
+  - item: "I will be giving a talk at the ITA workshop"
     date: "Feb 2026"
     link: "https://ita.ucsd.edu/workshop/"
-    # link_text: "Dynamic Symmetric Point Tracking: Tackling Non-ideal Reference in Analog In-memory Training"
     selected: y
 
   - item: "Our work on analog training was featured as 'Researchers Tackle AI’s Energy Problem with a Greener Fix' on the "
