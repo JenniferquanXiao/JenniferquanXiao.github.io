@@ -1,6 +1,16 @@
 # _data/talk.yaml
 html: |
     <ul>
+        <li><a href="https://sites.google.com/stern.nyu.edu/nyc-ops-day-2026/home">NYC Ops Day</a>, New York, NY, Apr, 2026
+            <ul>
+                <li>Unlocking Nested Learning for AI: A Case Study on Data Selection for LLM</li>
+            </ul>
+        </li>
+        <li><a href="https://ita.ucsd.edu/workshop/">Information Theory and Applications (ITA) Workshop</a>, San Diego, CA, Feb, 2026
+            <ul>
+                <li>Unlocking Nested Learning for AI: A Case Study on Data Selection for LLM</li>
+            </ul>
+        </li>
         <li><a href="https://cpal.cc">Conference on Parsimony and Learning (CPAL)</a>, Stanford, CA, March, 2025
             <ul>
                 <li>Global Convergence for Bilevel Optimization: A Pilot Study</li>

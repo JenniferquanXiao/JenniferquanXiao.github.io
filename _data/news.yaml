@@ -1,9 +1,22 @@
 news_items:
 
+
   - item: "Our paper on efficient ananlog training has been accepted by ICML 2026! In this work, we studied how to efficiently estimate the reference point and compensate for the asymmetry bias in analog training."
     date: "Apr 2026"
     link: "https://arxiv.org/pdf/2602.21321"
     link_text: "Dynamic Symmetric Point Tracking: Tackling Non-ideal Reference in Analog In-memory Training"
+    selected: y
+
+  - item: "I'm grateful to receive the travel award to present our works on LLM and diffusion model fine-tuning on"
+    date: "Apr 2026"
+    link: "https://sites.google.com/stern.nyu.edu/nyc-ops-day-2026/home"
+    link_text: "NYC Ops Day"
+    selected: y
+
+  - item: "I will attend ITA workshop and present our work on the Graduation Day"
+    date: "Feb 2026"
+    link: "https://ita.ucsd.edu/workshop/"
+    # link_text: "Dynamic Symmetric Point Tracking: Tackling Non-ideal Reference in Analog In-memory Training"
     selected: y
 
   - item: "Our work on analog training was featured as 'Researchers Tackle AI’s Energy Problem with a Greener Fix' on the "
