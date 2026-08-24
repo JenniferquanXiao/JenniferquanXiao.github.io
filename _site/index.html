@@ -214,6 +214,17 @@
 
     
     <p>
+      <b> <span class="label-badge">June 2026</span></b>
+      Our paper on bilevel data curation for offline and online data selection for LLM is available. In this work, we provide a unified view of offline and online data selection through bilevel multi-objective optimization and propose an efficient method for online self-refining data generation with LLMs.
+      
+      <a href="https://arxiv.org/pdf/2511.21056" target="_blank">
+        Bilevel Data Curation for LLM Fine-tuning: Offline Selection and Online Self-Refining Generation.
+      </a>
+      
+      
+    </p>
+    
+    <p>
       <b> <span class="label-badge">Apr 2026</span></b>
       Our paper on efficient ananlog training has been accepted by ICML 2026! In this work, we studied how to efficiently estimate the reference point and compensate for the asymmetry bias in analog training.
       
@@ -559,2028 +570,1294 @@
 
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button active" data-ref="#papers-optimization">Optimization Foundations</div></li>
+    <li><div class="button" data-ref="#papers-ai">AI/ML Applications</div></li>
+    <li><div class="button" data-ref="#papers-analog">Analog In-Memory Training</div></li>
     <li><div class="button" data-ref="#papers-all">All</div></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
+    <div class="tab-pane active" id="papers-optimization">
       
       
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/RIDER.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            ICML
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Dynamic Symmetric Point Tracking: Tackling Non-ideal Reference in Analog In-memory Training</b></p>
-            <p><strong><u>Quan Xiao</strong></u>*, Jindan Li*, Zhaoxian Wu, Tayfun Gokmen, and Tianyi Chen</p>
-            <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2026.</p>
-            
-            <div class="paper-buttons">
-              
-
-              
-                <a class="button" href="https://arxiv.org/pdf/2602.21321" target="_blank">Preprint</a>
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/PBGD_free.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">NeurIPS</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Beyond Value Functions: Single-Loop Bilevel Optimization under Flatness Conditions</b></p>
+        <p>Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Lisha Chen, and Tianyi Chen</p>
+        <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2025.</p>
         
-          <img 
-            src="/assets/pub_figure/analog_non_ideal.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            NeurIPS (Oral)
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions</b></p>
-            <p>Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Omobayode Fagbohungbe, and Tianyi Chen</p>
-            <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2025.</p>
-            
-            <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Oral, top 0.3% of all submissions)</b></p>
-            
-            <div class="paper-buttons">
-              
-
-              
-                <a class="button" href="https://arxiv.org/pdf/2502.06309" target="_blank">Preprint</a>
-              
-
-              
-                <a class="button" href="https://github.com/Zhaoxian-Wu/analog-training" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2507.20400" target="_blank">Preprint</a>
+          
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/PBGD_free.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            NeurIPS
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Beyond Value Functions: Single-Loop Bilevel Optimization under Flatness Conditions</b></p>
-            <p>Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Lisha Chen, and Tianyi Chen</p>
-            <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2025.</p>
-            
-            <div class="paper-buttons">
-              
-
-              
-                <a class="button" href="https://arxiv.org/pdf/2507.20400" target="_blank">Preprint</a>
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/FOOPS.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">ICML (Spotlight)</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance</b></p>
+        <p>Lisha Chen, <strong><u>Quan Xiao</strong></u>, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, Tianyi Chen</p>
+        <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2025.</p>
         
-          <img 
-            src="/assets/pub_figure/FOOPS.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
+          <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Spotlight, top 2.6% of all submissions)</b></p>
         
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            ICML (Spotlight)
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance</b></p>
-            <p>Lisha Chen, <strong><u>Quan Xiao</strong></u>, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, Tianyi Chen</p>
-            <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2025.</p>
-            
-            <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Spotlight, top 2.6% of all submissions)</b></p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2504.02854" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2504.02854" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/bilevel_diffusion.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            ICML
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>A First-order Generative Bilevel Optimization Framework for Diffusion Models</b></p>
-            <p><strong><u>Quan Xiao</strong></u>, Hui Yuan, A F M Saif, Gaowen Liu, Ramana Kompella, Mengdi Wang, and Tianyi Chen</p>
-            <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2025.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2502.08808" target="_blank">Paper</a>
-              
-
-              
-
-              
-                <a class="button" href="https://github.com/afmsaif/bilevel_diffusion" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/global_conv.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">ICLR</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Unlocking Global Optimality in Bilevel Optimization: A Pilot Study</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, and Tianyi Chen</p>
+        <p><i>Proc. of International Conference on Learning Representations <strong>(ICLR)</strong></i>, 2025.</p>
         
-          <img 
-            src="/assets/pub_figure/global_conv.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            ICLR
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Unlocking Global Optimality in Bilevel Optimization: A Pilot Study</b></p>
-            <p><strong><u>Quan Xiao</strong></u>, and Tianyi Chen</p>
-            <p><i>Proc. of International Conference on Learning Representations <strong>(ICLR)</strong></i>, 2025.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2408.16087" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2408.16087" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/PBGD1.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            MP
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>On Penalty-Based Bilevel Gradient Descent Method</b></p>
-            <p>Han Shen, <strong><u>Quan Xiao</strong></u>, and Tianyi Chen</p>
-            <p><i>Mathematical Programming <strong>(Series A)</strong></i>, 2025.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://link.springer.com/article/10.1007/s10107-025-02194-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250205&utm_content=10.1007/s10107-025-02194-4" target="_blank">Paper</a>
-              
-
-              
-
-              
-                <a class="button" href="https://github.com/hanshen95/penalized-bilevel-gradient-descent" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/PBGD1.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">MP</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>On Penalty-Based Bilevel Gradient Descent Method</b></p>
+        <p>Han Shen, <strong><u>Quan Xiao</strong></u>, and Tianyi Chen</p>
+        <p><i>Mathematical Programming <strong>(Series A)</strong></i>, 2025.</p>
         
-          <img 
-            src="/assets/pub_figure/primal-dual.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            NeurIPS
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints</b></p>
-            <p>Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Victor M. Tenorio, Fernando Real-Rojas, Antonio G. Marques, and Tianyi Chen</p>
-            <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2024.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2406.10148" target="_blank">Paper</a>
-              
-
-              
-
-              
-                <a class="button" href="https://github.com/Liuyuan999/Penalty_Based_Lagrangian_Bilevel" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          <a class="button" href="https://link.springer.com/article/10.1007/s10107-025-02194-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250205&utm_content=10.1007/s10107-025-02194-4" target="_blank">Paper</a>
+          
+          <a class="button" href="https://github.com/hanshen95/penalized-bilevel-gradient-descent" target="_blank">Code</a>
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/PL.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            NeurIPS
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>A Generalized Alternating Method for Bilevel Learning under the Polyak-Lojasiewicz Condition</b></p>
-            <p><strong><u>Quan Xiao</strong></u>, Songtao Lu, and Tianyi Chen</p>
-            <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2023.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2306.02422" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/primal-dual.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">NeurIPS</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints</b></p>
+        <p>Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Victor M. Tenorio, Fernando Real-Rojas, Antonio G. Marques, and Tianyi Chen</p>
+        <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2024.</p>
         
-          <img 
-            src="/assets/pub_figure/sharp-MAML.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            ICML
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Sharp-MAML: Sharpness-Aware Model-Agnostic Meta Learning</b></p>
-            <p>Momin Abbas*, <strong><u>Quan Xiao</strong></u>*, Lisha Chen*, Pin-Yu Chen, and Tianyi Chen (* equal contributor)</p>
-            <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2022.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://proceedings.mlr.press/v162/abbas22b/abbas22b.pdf" target="_blank">Paper</a>
-              
-
-              
-
-              
-                <a class="button" href="https://github.com/mominabbass/Sharp-MAML" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2406.10148" target="_blank">Paper</a>
+          
+          <a class="button" href="https://github.com/Liuyuan999/Penalty_Based_Lagrangian_Bilevel" target="_blank">Code</a>
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/stocBiO.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            AISTATS (Oral)
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>A Single-Timescale Method for Stochastic Bilevel Optimization</b></p>
-            <p>Tianyi Chen, Yuejiao Sun, <strong><u>Quan Xiao</strong></u>, and Wotao Yin</p>
-            <p><i>Proc. of Intl. Conf. on Artificial Intelligence and Statistics <strong>(AISTATS)</strong></i>, 2022.</p>
-            
-            <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Oral, top 2% of all submissions)</b></p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2102.04671" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/PL.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">NeurIPS</span>
+          
         </div>
       </div>
-      
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>A Generalized Alternating Method for Bilevel Learning under the Polyak-Lojasiewicz Condition</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Songtao Lu, and Tianyi Chen</p>
+        <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2023.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2306.02422" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/AiPOD.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">AISTATS</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Alternating Implicit Projected SGD and Its Efficient Variants for Equality-constrained Bilevel Optimization</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Han Shen, Wotao Yin, and Tianyi Chen</p>
+        <p><i><a href=https://proceedings.mlr.press/v206/xiao23a.html target='_blank'>A short version</a> was accepted by Proc. of Intl. Conf. on Artificial Intelligence and Statistics <strong>(AISTATS)</strong></i>, 2023.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2211.07096" target="_blank">Paper</a>
+          
+          <a class="button" href="https://github.com/hanshen95/AiPOD" target="_blank">Code</a>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/stocBiO.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">AISTATS (Oral)</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>A Single-Timescale Method for Stochastic Bilevel Optimization</b></p>
+        <p>Tianyi Chen, Yuejiao Sun, <strong><u>Quan Xiao</strong></u>, and Wotao Yin</p>
+        <p><i>Proc. of Intl. Conf. on Artificial Intelligence and Statistics <strong>(AISTATS)</strong></i>, 2022.</p>
+        
+          <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Oral, top 2% of all submissions)</b></p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2102.04671" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
     </div>
 
- 
+    <div class="tab-pane" id="papers-ai">
+      
+      
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/BDS.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">arxiv</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Bilevel Data Curation for LLM Fine-tuning: Offline Selection and Online Self-Refining Generation</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Yutong Xuan, Gaowen Liu, Ramana Rao Kompella, and Tianyi Chen</p>
+        <p><i>arxiv preprint</i>, 2026.</p>
+        
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2511.21056" target="_blank">Preprint</a>
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/ISAC.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">arxiv</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering</b></p>
+        <p>Heshan Fernando, <strong><u>Quan Xiao</strong></u>, Yan Xin, and Tianyi Chen</p>
+        <p><i>arxiv preprint</i>, 2026.</p>
+        
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2606.29706" target="_blank">Preprint</a>
+          <a class="button" href="https://github.com/heshandevaka/ARMOR" target="_blank">Code</a>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/bilevel_diffusion.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">ICML</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>A First-order Generative Bilevel Optimization Framework for Diffusion Models</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Hui Yuan, A F M Saif, Gaowen Liu, Ramana Kompella, Mengdi Wang, and Tianyi Chen</p>
+        <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2025.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2502.08808" target="_blank">Paper</a>
+          
+          <a class="button" href="https://github.com/afmsaif/bilevel_diffusion" target="_blank">Code</a>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/sharp-MAML.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">ICML</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Sharp-MAML: Sharpness-Aware Model-Agnostic Meta Learning</b></p>
+        <p>Momin Abbas*, <strong><u>Quan Xiao</strong></u>*, Lisha Chen*, Pin-Yu Chen, and Tianyi Chen (* equal contributor)</p>
+        <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2022.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://proceedings.mlr.press/v162/abbas22b/abbas22b.pdf" target="_blank">Paper</a>
+          
+          <a class="button" href="https://github.com/mominabbass/Sharp-MAML" target="_blank">Code</a>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+
+    <div class="tab-pane" id="papers-analog">
+      
+      
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/analog_MP.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">arxiv</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Optimization under Persistent State-Dependent Bias: Gradient-based Method and Complexity Analysis</b></p>
+        <p>Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, and Tianyi Chen</p>
+        <p><i>arxiv preprint</i>, 2026.</p>
+        
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2607.26032" target="_blank">Preprint</a>
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/ERIDER-frequency.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">Asilomar</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Breaking the Asymmetry Barrier in Analog In-Memory Training: A Signal Processing Solution</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Jindan Li, Zhaoxian Wu, Tayfun Gokmen, and Tianyi Chen</p>
+        <p><i>Asilomar Conference on Signals, Systems, and Computers</i>, 2026.</p>
+        
+        <div class="paper-buttons">
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/RIDER.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">ICML</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Dynamic Symmetric Point Tracking: Tackling Non-ideal Reference in Analog In-memory Training</b></p>
+        <p><strong><u>Quan Xiao</strong></u>*, Jindan Li*, Zhaoxian Wu, Tayfun Gokmen, and Tianyi Chen</p>
+        <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2026.</p>
+        
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2602.21321" target="_blank">Preprint</a>
+          <a class="button" href="https://github.com/Jindanli898/E-RIDER" target="_blank">Code</a>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/analog_non_ideal.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">NeurIPS (Oral)</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions</b></p>
+        <p>Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Omobayode Fagbohungbe, and Tianyi Chen</p>
+        <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2025.</p>
+        
+          <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Oral, top 0.3% of all submissions)</b></p>
+        
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2502.06309" target="_blank">Preprint</a>
+          <a class="button" href="https://github.com/Zhaoxian-Wu/analog-training" target="_blank">Code</a>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/pipeline.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">JSAIT</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>On the Convergence Theory of Pipeline Gradient-based Analog In-memory Training</b></p>
+        <p>Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Hsinyu Tsai, Kaoutar El Maghraoui, and Tianyi Chen</p>
+        <p><i>IEEE Journal on Selected Areas in Information Theory</i>, 2026.</p>
+        
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2410.15155" target="_blank">Preprint</a>
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
 
     <div class="tab-pane" id="papers-all">
       
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/RIDER.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            ICML
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Dynamic Symmetric Point Tracking: Tackling Non-ideal Reference in Analog In-memory Training</b></p>
-            <p><strong><u>Quan Xiao</strong></u>*, Jindan Li*, Zhaoxian Wu, Tayfun Gokmen, and Tianyi Chen</p>
-            <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2026.</p>
-            
-            <div class="paper-buttons">
-              
-
-              
-                <a class="button" href="https://arxiv.org/pdf/2602.21321" target="_blank">Preprint</a>
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/BDS.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">arxiv</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Bilevel Data Curation for LLM Fine-tuning: Offline Selection and Online Self-Refining Generation</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Yutong Xuan, Gaowen Liu, Ramana Rao Kompella, and Tianyi Chen</p>
+        <p><i>arxiv preprint</i>, 2026.</p>
         
-          <img 
-            src="/assets/pub_figure/analog_non_ideal.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            NeurIPS (Oral)
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions</b></p>
-            <p>Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Omobayode Fagbohungbe, and Tianyi Chen</p>
-            <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2025.</p>
-            
-            <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Oral, top 0.3% of all submissions)</b></p>
-            
-            <div class="paper-buttons">
-              
-
-              
-                <a class="button" href="https://arxiv.org/pdf/2502.06309" target="_blank">Preprint</a>
-              
-
-              
-                <a class="button" href="https://github.com/Zhaoxian-Wu/analog-training" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2511.21056" target="_blank">Preprint</a>
+          
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/PBGD_free.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            NeurIPS
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Beyond Value Functions: Single-Loop Bilevel Optimization under Flatness Conditions</b></p>
-            <p>Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Lisha Chen, and Tianyi Chen</p>
-            <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2025.</p>
-            
-            <div class="paper-buttons">
-              
-
-              
-                <a class="button" href="https://arxiv.org/pdf/2507.20400" target="_blank">Preprint</a>
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/ISAC.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">arxiv</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering</b></p>
+        <p>Heshan Fernando, <strong><u>Quan Xiao</strong></u>, Yan Xin, and Tianyi Chen</p>
+        <p><i>arxiv preprint</i>, 2026.</p>
         
-          <img 
-            src="/assets/pub_figure/FOOPS.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            ICML (Spotlight)
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance</b></p>
-            <p>Lisha Chen, <strong><u>Quan Xiao</strong></u>, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, Tianyi Chen</p>
-            <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2025.</p>
-            
-            <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Spotlight, top 2.6% of all submissions)</b></p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2504.02854" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2606.29706" target="_blank">Preprint</a>
+          <a class="button" href="https://github.com/heshandevaka/ARMOR" target="_blank">Code</a>
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/bilevel_diffusion.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            ICML
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>A First-order Generative Bilevel Optimization Framework for Diffusion Models</b></p>
-            <p><strong><u>Quan Xiao</strong></u>, Hui Yuan, A F M Saif, Gaowen Liu, Ramana Kompella, Mengdi Wang, and Tianyi Chen</p>
-            <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2025.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2502.08808" target="_blank">Paper</a>
-              
-
-              
-
-              
-                <a class="button" href="https://github.com/afmsaif/bilevel_diffusion" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/analog_MP.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">arxiv</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Optimization under Persistent State-Dependent Bias: Gradient-based Method and Complexity Analysis</b></p>
+        <p>Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, and Tianyi Chen</p>
+        <p><i>arxiv preprint</i>, 2026.</p>
         
-          <img 
-            src="/assets/pub_figure/global_conv.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            ICLR
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Unlocking Global Optimality in Bilevel Optimization: A Pilot Study</b></p>
-            <p><strong><u>Quan Xiao</strong></u>, and Tianyi Chen</p>
-            <p><i>Proc. of International Conference on Learning Representations <strong>(ICLR)</strong></i>, 2025.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2408.16087" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2607.26032" target="_blank">Preprint</a>
+          
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/PBGD1.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            MP
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>On Penalty-Based Bilevel Gradient Descent Method</b></p>
-            <p>Han Shen, <strong><u>Quan Xiao</strong></u>, and Tianyi Chen</p>
-            <p><i>Mathematical Programming <strong>(Series A)</strong></i>, 2025.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://link.springer.com/article/10.1007/s10107-025-02194-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250205&utm_content=10.1007/s10107-025-02194-4" target="_blank">Paper</a>
-              
-
-              
-
-              
-                <a class="button" href="https://github.com/hanshen95/penalized-bilevel-gradient-descent" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/ERIDER-frequency.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">Asilomar</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Breaking the Asymmetry Barrier in Analog In-Memory Training: A Signal Processing Solution</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Jindan Li, Zhaoxian Wu, Tayfun Gokmen, and Tianyi Chen</p>
+        <p><i>Asilomar Conference on Signals, Systems, and Computers</i>, 2026.</p>
         
-          <img 
-            src="/assets/pub_figure/pipeline.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            JSAIT
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>On the Convergence Theory of Pipeline Gradient-based Analog In-memory Training</b></p>
-            <p>Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Hsinyu Tsai, Kaoutar El Maghraoui, and Tianyi Chen</p>
-            <p><i>IEEE Journal on Selected Areas in Information Theory</i>, 2026.</p>
-            
-            <div class="paper-buttons">
-              
-
-              
-                <a class="button" href="https://arxiv.org/pdf/2410.15155" target="_blank">Preprint</a>
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          
+          
+          
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/primal-dual.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            NeurIPS
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints</b></p>
-            <p>Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Victor M. Tenorio, Fernando Real-Rojas, Antonio G. Marques, and Tianyi Chen</p>
-            <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2024.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2406.10148" target="_blank">Paper</a>
-              
-
-              
-
-              
-                <a class="button" href="https://github.com/Liuyuan999/Penalty_Based_Lagrangian_Bilevel" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/RIDER.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">ICML</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Dynamic Symmetric Point Tracking: Tackling Non-ideal Reference in Analog In-memory Training</b></p>
+        <p><strong><u>Quan Xiao</strong></u>*, Jindan Li*, Zhaoxian Wu, Tayfun Gokmen, and Tianyi Chen</p>
+        <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2026.</p>
         
-          <img 
-            src="/assets/pub_figure/inverse_problem.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            Inverse Problems
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>A Bilevel Optimization Method for Inverse Mean-Field Games</b></p>
-            <p>Jiajia Yu, <strong><u>Quan Xiao</strong></u>, Tianyi Chen, and Rongjie Lai</p>
-            <p><i>Inverse Problems</i>, Aug. 2024.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2401.05539" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2602.21321" target="_blank">Preprint</a>
+          <a class="button" href="https://github.com/Jindanli898/E-RIDER" target="_blank">Code</a>
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/PL.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            NeurIPS
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>A Generalized Alternating Method for Bilevel Learning under the Polyak-Lojasiewicz Condition</b></p>
-            <p><strong><u>Quan Xiao</strong></u>, Songtao Lu, and Tianyi Chen</p>
-            <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2023.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2306.02422" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/analog_non_ideal.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">NeurIPS (Oral)</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions</b></p>
+        <p>Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Omobayode Fagbohungbe, and Tianyi Chen</p>
+        <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2025.</p>
         
-          <img 
-            src="/assets/pub_figure/LAZO.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
+          <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Oral, top 0.3% of all submissions)</b></p>
         
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            TSP
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Lazy Queries Can Reduce Variance in Zeroth-order Optimization</b></p>
-            <p><strong><u>Quan Xiao</strong></u>, Qing Ling, and Tianyi Chen</p>
-            <p><i>IEEE Transactions on Signal Processing</i>, Sep. 2023.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10256140&tag=1" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2502.06309" target="_blank">Preprint</a>
+          <a class="button" href="https://github.com/Zhaoxian-Wu/analog-training" target="_blank">Code</a>
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/AiPOD.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            AISTATS
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Alternating Implicit Projected SGD and Its Efficient Variants for Equality-constrained Bilevel Optimization</b></p>
-            <p><strong><u>Quan Xiao</strong></u>, Han Shen, Wotao Yin, and Tianyi Chen</p>
-            <p><i><a href=https://proceedings.mlr.press/v206/xiao23a.html target='_blank'>A short version</a> was accepted by Proc. of Intl. Conf. on Artificial Intelligence and Statistics <strong>(AISTATS)</strong></i>, 2023.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2211.07096" target="_blank">Paper</a>
-              
-
-              
-
-              
-                <a class="button" href="https://github.com/hanshen95/AiPOD" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/PBGD_free.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">NeurIPS</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Beyond Value Functions: Single-Loop Bilevel Optimization under Flatness Conditions</b></p>
+        <p>Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Lisha Chen, and Tianyi Chen</p>
+        <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2025.</p>
         
-          <img 
-            src="/assets/pub_figure/sharp-MAML.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            ICML
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Sharp-MAML: Sharpness-Aware Model-Agnostic Meta Learning</b></p>
-            <p>Momin Abbas*, <strong><u>Quan Xiao</strong></u>*, Lisha Chen*, Pin-Yu Chen, and Tianyi Chen (* equal contributor)</p>
-            <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2022.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://proceedings.mlr.press/v162/abbas22b/abbas22b.pdf" target="_blank">Paper</a>
-              
-
-              
-
-              
-                <a class="button" href="https://github.com/mominabbass/Sharp-MAML" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2507.20400" target="_blank">Preprint</a>
+          
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/fed_bandit.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            ICASSP
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Federated Multi-armed Bandit via Uncoordinated Exploration</b></p>
-            <p>Zirui Yan, <strong><u>Quan Xiao</strong></u>, Tianyi Chen, and Ali Tajer</p>
-            <p><i>Proc. of Intl. Conf. on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong></i>, 2022.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747833" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/FOOPS.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">ICML (Spotlight)</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance</b></p>
+        <p>Lisha Chen, <strong><u>Quan Xiao</strong></u>, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, Tianyi Chen</p>
+        <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2025.</p>
         
-          <img 
-            src="/assets/pub_figure/stocBiO.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
+          <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Spotlight, top 2.6% of all submissions)</b></p>
         
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            AISTATS (Oral)
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>A Single-Timescale Method for Stochastic Bilevel Optimization</b></p>
-            <p>Tianyi Chen, Yuejiao Sun, <strong><u>Quan Xiao</strong></u>, and Wotao Yin</p>
-            <p><i>Proc. of Intl. Conf. on Artificial Intelligence and Statistics <strong>(AISTATS)</strong></i>, 2022.</p>
-            
-            <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Oral, top 2% of all submissions)</b></p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://arxiv.org/pdf/2102.04671" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2504.02854" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
-        
-          <img 
-            src="/assets/pub_figure/wdcor.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            Bioinformatics
-          </span>
-        
-      </div>
     </div>
+  </div>
 
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Genome-wide Association Studies of Brain Imaging Data via Weighted Distance Correlations</b></p>
-            <p>Canhong Wen, Yuhui Yang, <strong><u>Quan Xiao</strong></u>, Meiyan Huang, and Wenliang Pan</p>
-            <p><i>Bioinformatics</i>, 2020.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://doi.org/10.1093/bioinformatics/btaa612" target="_blank">Paper</a>
-              
-
-              
-
-              
-                <a class="button" href="https://github.com/yangyuhui0129/wdcor" target="_blank">Code</a>
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/bilevel_diffusion.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">ICML</span>
+          
         </div>
       </div>
-      
-        <div class="paper" style="
-          display: table;
-          width: 100%;
-          margin-bottom: 1.5em;  /* spacing between papers */
-          table-layout: fixed;   /* ensures columns don’t jump around */
-          border-bottom: 0.5px dashed grey;
-        ">
-        <!-- The row -->
-      <div style="display: table-row;">
-        <!-- Left cell: Figure with overlayed label -->
-    <div style="
-      display: table-cell;
-      vertical-align: top;
-      width: 18em;
-      white-space: nowrap;
-    ">
-      <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>A First-order Generative Bilevel Optimization Framework for Diffusion Models</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Hui Yuan, A F M Saif, Gaowen Liu, Ramana Kompella, Mengdi Wang, and Tianyi Chen</p>
+        <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2025.</p>
         
-          <img 
-            src="/assets/pub_figure/KSVD.png" 
-            style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;"
-          >
-        
-        
-          <span class="label-badge" style="
-            position: absolute;
-            top: -10px;
-            left: 0;
-          ">
-            WACV
-          </span>
-        
-      </div>
-    </div>
-
-          <div class="paper-details" style="
-              display: table-cell;
-              vertical-align: middle;
-              padding-left: 1em; /* space between badge and text */
-            ">
-            <!-- Paper Title -->
-            <p class="title"><b>Image denoising via K-SVD with primal-dual active set algorithm</b></p>
-            <p><strong><u>Quan Xiao</strong></u>, Canhong Wen, and Zirui Yan</p>
-            <p><i>Proc. of Winter conference on Applications of Computer Vision <strong>(WACV)</strong></i>, 2020.</p>
-            
-            <div class="paper-buttons">
-              
-                <a class="button" href="https://openaccess.thecvf.com/content_WACV_2020/papers/Xiao_Image_denoising_via_K-SVD_with_primal-dual_active_set_algorithm_WACV_2020_paper.pdf" target="_blank">Paper</a>
-              
-
-              
-
-              
-
-              
-
-              
-              
-              
-
-              
-
-              
-            </div>
-          </div>
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2502.08808" target="_blank">Paper</a>
+          
+          <a class="button" href="https://github.com/afmsaif/bilevel_diffusion" target="_blank">Code</a>
+          
+          
+          
+          
+          
         </div>
       </div>
-      
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/global_conv.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">ICLR</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Unlocking Global Optimality in Bilevel Optimization: A Pilot Study</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, and Tianyi Chen</p>
+        <p><i>Proc. of International Conference on Learning Representations <strong>(ICLR)</strong></i>, 2025.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2408.16087" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/PBGD1.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">MP</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>On Penalty-Based Bilevel Gradient Descent Method</b></p>
+        <p>Han Shen, <strong><u>Quan Xiao</strong></u>, and Tianyi Chen</p>
+        <p><i>Mathematical Programming <strong>(Series A)</strong></i>, 2025.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://link.springer.com/article/10.1007/s10107-025-02194-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250205&utm_content=10.1007/s10107-025-02194-4" target="_blank">Paper</a>
+          
+          <a class="button" href="https://github.com/hanshen95/penalized-bilevel-gradient-descent" target="_blank">Code</a>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/pipeline.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">JSAIT</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>On the Convergence Theory of Pipeline Gradient-based Analog In-memory Training</b></p>
+        <p>Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Hsinyu Tsai, Kaoutar El Maghraoui, and Tianyi Chen</p>
+        <p><i>IEEE Journal on Selected Areas in Information Theory</i>, 2026.</p>
+        
+        <div class="paper-buttons">
+          
+          <a class="button" href="https://arxiv.org/pdf/2410.15155" target="_blank">Preprint</a>
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/primal-dual.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">NeurIPS</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints</b></p>
+        <p>Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Victor M. Tenorio, Fernando Real-Rojas, Antonio G. Marques, and Tianyi Chen</p>
+        <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2024.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2406.10148" target="_blank">Paper</a>
+          
+          <a class="button" href="https://github.com/Liuyuan999/Penalty_Based_Lagrangian_Bilevel" target="_blank">Code</a>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/inverse_problem.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">Inverse Problems</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>A Bilevel Optimization Method for Inverse Mean-Field Games</b></p>
+        <p>Jiajia Yu, <strong><u>Quan Xiao</strong></u>, Tianyi Chen, and Rongjie Lai</p>
+        <p><i>Inverse Problems</i>, Aug. 2024.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2401.05539" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/PL.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">NeurIPS</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>A Generalized Alternating Method for Bilevel Learning under the Polyak-Lojasiewicz Condition</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Songtao Lu, and Tianyi Chen</p>
+        <p><i>Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong></i>, 2023.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2306.02422" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/LAZO.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">TSP</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Lazy Queries Can Reduce Variance in Zeroth-order Optimization</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Qing Ling, and Tianyi Chen</p>
+        <p><i>IEEE Transactions on Signal Processing</i>, Sep. 2023.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10256140&tag=1" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/AiPOD.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">AISTATS</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Alternating Implicit Projected SGD and Its Efficient Variants for Equality-constrained Bilevel Optimization</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Han Shen, Wotao Yin, and Tianyi Chen</p>
+        <p><i><a href=https://proceedings.mlr.press/v206/xiao23a.html target='_blank'>A short version</a> was accepted by Proc. of Intl. Conf. on Artificial Intelligence and Statistics <strong>(AISTATS)</strong></i>, 2023.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2211.07096" target="_blank">Paper</a>
+          
+          <a class="button" href="https://github.com/hanshen95/AiPOD" target="_blank">Code</a>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/sharp-MAML.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">ICML</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Sharp-MAML: Sharpness-Aware Model-Agnostic Meta Learning</b></p>
+        <p>Momin Abbas*, <strong><u>Quan Xiao</strong></u>*, Lisha Chen*, Pin-Yu Chen, and Tianyi Chen (* equal contributor)</p>
+        <p><i>Proc. of International Conference on Machine Learning <strong>(ICML)</strong></i>, 2022.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://proceedings.mlr.press/v162/abbas22b/abbas22b.pdf" target="_blank">Paper</a>
+          
+          <a class="button" href="https://github.com/mominabbass/Sharp-MAML" target="_blank">Code</a>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/fed_bandit.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">ICASSP</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Federated Multi-armed Bandit via Uncoordinated Exploration</b></p>
+        <p>Zirui Yan, <strong><u>Quan Xiao</strong></u>, Tianyi Chen, and Ali Tajer</p>
+        <p><i>Proc. of Intl. Conf. on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong></i>, 2022.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747833" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/stocBiO.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">AISTATS (Oral)</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>A Single-Timescale Method for Stochastic Bilevel Optimization</b></p>
+        <p>Tianyi Chen, Yuejiao Sun, <strong><u>Quan Xiao</strong></u>, and Wotao Yin</p>
+        <p><i>Proc. of Intl. Conf. on Artificial Intelligence and Statistics <strong>(AISTATS)</strong></i>, 2022.</p>
+        
+          <p><i class="fa fa-trophy" style="color:#B509AC"></i> <b>(Oral, top 2% of all submissions)</b></p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://arxiv.org/pdf/2102.04671" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/wdcor.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">Bioinformatics</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Genome-wide Association Studies of Brain Imaging Data via Weighted Distance Correlations</b></p>
+        <p>Canhong Wen, Yuhui Yang, <strong><u>Quan Xiao</strong></u>, Meiyan Huang, and Wenliang Pan</p>
+        <p><i>Bioinformatics</i>, 2020.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://doi.org/10.1093/bioinformatics/btaa612" target="_blank">Paper</a>
+          
+          <a class="button" href="https://github.com/yangyuhui0129/wdcor" target="_blank">Code</a>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper" style="display: table; width: 100%; margin-bottom: 1.5em; table-layout: fixed; border-bottom: 0.5px dashed grey;">
+    <div style="display: table-row;">
+      <div style="display: table-cell; vertical-align: top; width: 18em; white-space: nowrap;">
+        <div class="fig-container" style="position: relative; display: inline-block; width: 18em; text-align: center;">
+          
+            <img src="/assets/pub_figure/KSVD.png" style="display: block; margin: 0 auto; max-width: 100%; max-height: 180px;">
+          
+          
+            <span class="label-badge" style="position: absolute; top: -10px; left: 0;">WACV</span>
+          
+        </div>
+      </div>
+
+      <div class="paper-details" style="display: table-cell; vertical-align: middle; padding-left: 1em;">
+        <p class="title"><b>Image denoising via K-SVD with primal-dual active set algorithm</b></p>
+        <p><strong><u>Quan Xiao</strong></u>, Canhong Wen, and Zirui Yan</p>
+        <p><i>Proc. of Winter conference on Applications of Computer Vision <strong>(WACV)</strong></i>, 2020.</p>
+        
+        <div class="paper-buttons">
+          <a class="button" href="https://openaccess.thecvf.com/content_WACV_2020/papers/Xiao_Image_denoising_via_K-SVD_with_primal-dual_active_set_algorithm_WACV_2020_paper.pdf" target="_blank">Paper</a>
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
     </div>
   </div>
 </div>
@@ -2713,7 +1990,6 @@
     Design by <a href="https://web.stanford.edu/~msaveski/" target="_blank">Martin Saveski</a>, forked by permission from <a href="https://github.com/msaveski/www_personal" target="_blank">his Github</a>. My version has some additional features; you can fork it from <a href="https://github.com/mmoorr/www_personal" target="_blank">here</a>.
 </div>
 -->
-
 
     <div class="footer">
           This website is based on template by 

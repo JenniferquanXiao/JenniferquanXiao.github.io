@@ -1,10 +1,48 @@
 papers:
 
+  - title: "Bilevel Data Curation for LLM Fine-tuning: Offline Selection and Online Self-Refining Generation"
+    authors: "<strong><u>Quan Xiao</strong></u>, Yutong Xuan, Gaowen Liu, Ramana Rao Kompella, and Tianyi Chen"
+    venue: "arxiv preprint"
+    preprint: "https://arxiv.org/pdf/2511.21056"
+    category: ai
+    label: "arxiv"
+    year: "2026"
+    fig: "./assets/pub_figure/BDS.png"
+
+  - title: "ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering"
+    authors: "Heshan Fernando, <strong><u>Quan Xiao</strong></u>, Yan Xin, and Tianyi Chen"
+    venue: "arxiv preprint"
+    preprint: "https://arxiv.org/pdf/2606.29706"
+    category: ai
+    label: "arxiv"
+    code: "https://github.com/heshandevaka/ARMOR"
+    year: "2026"
+    fig: "./assets/pub_figure/ISAC.png"
+
+  - title: "Optimization under Persistent State-Dependent Bias: Gradient-based Method and Complexity Analysis"
+    authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, and Tianyi Chen"
+    venue: "arxiv preprint"
+    preprint: "https://arxiv.org/pdf/2607.26032"
+    category: analog
+    label: "arxiv"
+    year: "2026"
+    fig: "./assets/pub_figure/analog_MP.png"
+
+
+  - title: "Breaking the Asymmetry Barrier in Analog In-Memory Training: A Signal Processing Solution"
+    authors: "<strong><u>Quan Xiao</strong></u>, Jindan Li, Zhaoxian Wu, Tayfun Gokmen, and Tianyi Chen"
+    venue: "Asilomar Conference on Signals, Systems, and Computers"
+    category: analog
+    label: "Asilomar"
+    year: "2026"
+    fig: "./assets/pub_figure/ERIDER-frequency.png"
+
   - title: "Dynamic Symmetric Point Tracking: Tackling Non-ideal Reference in Analog In-memory Training"
     authors: "<strong><u>Quan Xiao</strong></u>*, Jindan Li*, Zhaoxian Wu, Tayfun Gokmen, and Tianyi Chen"
     venue: "Proc. of International Conference on Machine Learning <strong>(ICML)</strong>"
     preprint: "https://arxiv.org/pdf/2602.21321"
-    selected: y
+    code: "https://github.com/Jindanli898/E-RIDER"
+    category: analog
     label: "ICML"
     year: "2026"
     fig: "./assets/pub_figure/RIDER.png"
@@ -14,7 +52,7 @@ papers:
     authors: "Zhaoxian Wu, <strong><u>Quan Xiao</strong></u>, Tayfun Gokmen, Omobayode Fagbohungbe, and Tianyi Chen"
     venue: "Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong>"
     preprint: "https://arxiv.org/pdf/2502.06309"
-    selected: y
+    category: analog
     award:  "(Oral, top 0.3% of all submissions)"
     code: "https://github.com/Zhaoxian-Wu/analog-training"
     label: "NeurIPS (Oral)"
@@ -25,7 +63,7 @@ papers:
     authors: "Liuyuan Jiang, <strong><u>Quan Xiao</strong></u>, Lisha Chen, and Tianyi Chen"
     venue: "Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong>"
     preprint: "https://arxiv.org/pdf/2507.20400"
-    selected: y
+    category: optimization
     label: "NeurIPS"
     year: "2025"
     fig: "./assets/pub_figure/PBGD_free.png"
@@ -36,7 +74,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/2504.02854"
     year: "2025"
     award:  "(Spotlight, top 2.6% of all submissions)"   
-    selected: y
+    category: optimization
     label: "ICML (Spotlight)"
     fig: "./assets/pub_figure/FOOPS.png"
 
@@ -46,7 +84,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/2502.08808"
     year: "2025"
     code: "https://github.com/afmsaif/bilevel_diffusion"
-    selected: y
+    category: ai
     label: "ICML"
     fig: "./assets/pub_figure/bilevel_diffusion.png"
 
@@ -56,7 +94,7 @@ papers:
     venue: "Proc. of International Conference on Learning Representations <strong>(ICLR)</strong>"
     paper_pdf: "https://arxiv.org/pdf/2408.16087"
     year: "2025"
-    selected: y
+    category: optimization
     label: "ICLR"
     fig: "./assets/pub_figure/global_conv.png"
 
@@ -66,7 +104,7 @@ papers:
     paper_pdf: "https://link.springer.com/article/10.1007/s10107-025-02194-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250205&utm_content=10.1007/s10107-025-02194-4"
     code: "https://github.com/hanshen95/penalized-bilevel-gradient-descent"
     year: "2025"
-    selected: y
+    category: optimization
     label: "MP"
     fig: "./assets/pub_figure/PBGD1.png"
 
@@ -75,7 +113,7 @@ papers:
     venue: "IEEE Journal on Selected Areas in Information Theory"
     year: "2026"
     preprint: "https://arxiv.org/pdf/2410.15155"
-    selected: n
+    category: analog
     label: "JSAIT"
     fig: "./assets/pub_figure/pipeline.png"
 
@@ -84,8 +122,8 @@ papers:
     venue: "Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong>"
     paper_pdf: "https://arxiv.org/pdf/2406.10148"
     code: "https://github.com/Liuyuan999/Penalty_Based_Lagrangian_Bilevel"
+    category: optimization
     year: "2024"
-    selected: y
     label: "NeurIPS"
     fig: "./assets/pub_figure/primal-dual.png"
 
@@ -94,7 +132,6 @@ papers:
     venue: "Inverse Problems"
     paper_pdf: "https://arxiv.org/pdf/2401.05539"
     year: "Aug. 2024"
-    selected: n 
     label: "Inverse Problems"
     fig: "./assets/pub_figure/inverse_problem.png"
 
@@ -103,7 +140,7 @@ papers:
     venue: "Proc. of Neural Information Processing Systems <strong>(NeurIPS)</strong>"
     paper_pdf: "https://arxiv.org/pdf/2306.02422"
     year: "2023"
-    selected: y
+    category: optimization
     label: "NeurIPS"
     fig: "./assets/pub_figure/PL.png"
 
@@ -112,7 +149,6 @@ papers:
     venue: "IEEE Transactions on Signal Processing"
     paper_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10256140&tag=1"
     year: "Sep. 2023"
-    selected: n 
     label: "TSP"
     fig: "./assets/pub_figure/LAZO.png"
 
@@ -120,8 +156,8 @@ papers:
     authors: "<strong><u>Quan Xiao</strong></u>, Han Shen, Wotao Yin, and Tianyi Chen"
     venue: "<a href=https://proceedings.mlr.press/v206/xiao23a.html target='_blank'>A short version</a> was accepted by Proc. of Intl. Conf. on Artificial Intelligence and Statistics <strong>(AISTATS)</strong>"
     paper_pdf: "https://arxiv.org/pdf/2211.07096"
+    category: optimization
     year: "2023"
-    selected: n
     label: "AISTATS"
     code: "https://github.com/hanshen95/AiPOD"
     fig: "./assets/pub_figure/AiPOD.png"
@@ -131,7 +167,7 @@ papers:
     venue: "Proc. of International Conference on Machine Learning <strong>(ICML)</strong>"
     paper_pdf: "https://proceedings.mlr.press/v162/abbas22b/abbas22b.pdf"
     year: "2022"
-    selected: y
+    category: ai
     label: "ICML"
     code: "https://github.com/mominabbass/Sharp-MAML"
     fig: "./assets/pub_figure/sharp-MAML.png"
@@ -141,7 +177,6 @@ papers:
     venue: "Proc. of Intl. Conf. on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong>"
     paper_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747833"
     year: "2022"
-    selected: n
     label: "ICASSP"
     fig: "./assets/pub_figure/fed_bandit.png"
 
@@ -151,7 +186,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/2102.04671"
     award:  "(Oral, top 2% of all submissions)"    
     year: "2022"
-    selected: y
+    category: optimization
     label: "AISTATS (Oral)"
     fig: "./assets/pub_figure/stocBiO.png"
 
@@ -160,7 +195,6 @@ papers:
     venue: "Bioinformatics"
     paper_pdf: "https://doi.org/10.1093/bioinformatics/btaa612"
     year: "2020"
-    selected: n
     label: "Bioinformatics"
     code: "https://github.com/yangyuhui0129/wdcor"
     fig: "./assets/pub_figure/wdcor.png"
@@ -170,10 +204,8 @@ papers:
     venue: "Proc. of Winter conference on Applications of Computer Vision <strong>(WACV)</strong>"
     paper_pdf: "https://openaccess.thecvf.com/content_WACV_2020/papers/Xiao_Image_denoising_via_K-SVD_with_primal-dual_active_set_algorithm_WACV_2020_paper.pdf"
     year: "2020"
-    selected: n
     label: "WACV"
     fig: "./assets/pub_figure/KSVD.png"
-
 
 
 

@@ -1,5 +1,10 @@
 news_items:
 
+  - item: "Our paper on bilevel data curation for offline and online data selection for LLM is available. In this work, we provide a unified view of offline and online data selection through bilevel multi-objective optimization and propose an efficient method for online self-refining data generation with LLMs."
+    date: "June 2026"
+    link: "https://arxiv.org/pdf/2511.21056"
+    link_text: "Bilevel Data Curation for LLM Fine-tuning: Offline Selection and Online Self-Refining Generation"
+    selected: y
 
   - item: "Our paper on efficient ananlog training has been accepted by ICML 2026! In this work, we studied how to efficiently estimate the reference point and compensate for the asymmetry bias in analog training."
     date: "Apr 2026"
