@@ -16,6 +16,13 @@ h4 {
 .main-description .fa {
   font-size: 22px;
   margin-top: 5px; }
+
+#publications .tab-nav .button {
+  max-width: 100%;
+  height: auto;
+  white-space: normal;
+}
+
 /* CMG: Conference Label*/
 .label-badge {
   display: inline-block;
@@ -341,4 +348,3 @@ h4 {
 .education .details {
   flex: 1;            /* take remaining space */
 }
-

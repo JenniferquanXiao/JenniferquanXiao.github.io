@@ -1,5 +1,16 @@
 news_items:
 
+  - item: "I'm grateful to receive support through the Google Cloud Research Credits Program and a Lambda Research Grant."
+    date: "Sep 2026"
+    selected: y
+
+  - item: "Two papers have been accepted by Asilomar 2026 and CDC 2026! <i>Breaking the Asymmetry Barrier in Analog In-Memory Training: A Signal Processing Solution, </i>"
+    date: "Aug 2026"
+    link: "https://arxiv.org/abs/2511.06686"
+    link_text: "<i>Balancing Multi-modal Sensor Learning via Multi-objective Optimization</i>"
+    selected: y
+
+
   - item: "Our paper on bilevel data curation for offline and online data selection for LLM is available. In this work, we provide a unified view of offline and online data selection through bilevel multi-objective optimization and propose an efficient method for online self-refining data generation with LLMs."
     date: "June 2026"
     link: "https://arxiv.org/pdf/2511.21056"

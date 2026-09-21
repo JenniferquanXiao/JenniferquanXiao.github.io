@@ -1,5 +1,12 @@
 papers:
 
+  - title: "BRIDGE: Bilevel Retrieval Credit Aware Agentic Reinforcement Learning"
+    authors: "<strong><u>Quan Xiao</u></strong>, Mingda Liu, Gaowen Liu, Katsuki Fujisawa, and Tianyi Chen"
+    venue: "Coming soon"
+    category: ai
+    year: "2026"
+    fig: "./assets/pub_figure/BRIDGE.png"
+
   - title: "Bilevel Data Curation for LLM Fine-tuning: Offline Selection and Online Self-Refining Generation"
     authors: "<strong><u>Quan Xiao</strong></u>, Yutong Xuan, Gaowen Liu, Ramana Rao Kompella, and Tianyi Chen"
     venue: "arxiv preprint"
@@ -206,7 +213,6 @@ papers:
     year: "2020"
     label: "WACV"
     fig: "./assets/pub_figure/KSVD.png"
-
 
 
 
