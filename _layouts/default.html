@@ -6,13 +6,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="Homepage for Quan Xiao, Information Science Professor at Cornell Tech.">
+  <meta name="description" content="{{ page.description | default: 'Homepage of Quan Xiao, Ph.D. student in Electrical and Computer Engineering at Cornell University.' | escape }}">
   <meta name="author" content="Quan">
-  <meta property="og:title" content="Quan Xiao | Home" />
+  <meta property="og:title" content="{{ site.data.main_info.name }} | {{ page.title | escape }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://jenniferquanxiao.github.io/award.html" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
   <meta property="og:site_name" content="Quan Xiao" />
-  <link rel="canonical" href="https://jenniferquanxiao.github.io/award.html" />
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -147,6 +147,7 @@
           -->
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>News</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>Blog</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#experience" | prepend: site.baseurl }}>Experience</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#Award" | prepend: site.baseurl }}>Award</a></li>
           <!--

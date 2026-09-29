@@ -1,6 +1,8 @@
 # _data/award.yaml
 html: |
     <ul>
+        <li>Google Cloud Research Credits Program, 2026–2027</li>
+        <li>Lambda Research Grant, 2026</li>
         <li>Gold reviewer for ICML, 2026</li>
         <li>Travel award for NYC Ops Day, 2026</li>
         <li>NeurIPS top reviewer, 2025</li>

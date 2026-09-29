@@ -1,5 +1,11 @@
 news_items:
 
+  - item: "Our blog post on BRIDGE is now available:"
+    date: "Sep 2026"
+    link: "https://jenniferquanxiao.github.io/BRIDGE/"
+    link_text: "BRIDGE: Bilevel Retrieval-Credit-Aware Agentic Reinforcement Learning"
+    selected: y
+
   - item: "I'm grateful to receive support through the Google Cloud Research Credits Program and a Lambda Research Grant."
     date: "Sep 2026"
     selected: y
