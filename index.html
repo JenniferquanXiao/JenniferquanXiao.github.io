@@ -39,7 +39,7 @@ title: Home
       {% comment %} render each link, separating with comma and ending with a period {% endcomment %}
       {% assign link_count = news_item.links | size %}
       {% for link in news_item.links %}
-        {% if link.url and link.url != "" %}<a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.text }}</a>{% else %}{{ link.text }}{% endif %}{% if link.venue or link.status %} ({{ link.venue }}{% if link.venue and link.status %}; {% endif %}{{ link.status }}){% endif %}{% if forloop.index < link_count %}, {% else %}.{% endif %}
+        {% if link.prefix %}{{ link.prefix | escape }} {% endif %}{% if link.url and link.url != "" %}<a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.text }}</a>{% else %}{{ link.text }}{% endif %}{% if link.venue or link.status %} ({{ link.venue }}{% if link.venue and link.status %}; {% endif %}{{ link.status }}){% endif %}{% if forloop.index < link_count %}, {% else %}.{% endif %}
       {% endfor %}
       {% endif %}
     </p>

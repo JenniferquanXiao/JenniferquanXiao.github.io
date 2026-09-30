@@ -433,20 +433,13 @@ h4 {
   margin: 0;
   color: #555;
 }
-.blog-card-footer,
-.blog-tags {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem 1.5rem;
-  color: #B509AC;
-  font-size: 1.2rem;
-}
 .blog-card-footer {
-  justify-content: space-between;
   margin-top: 1.8rem;
+  color: #B509AC;
+  text-align: right;
 }
 .blog-read-more {
+  font-size: 1.6rem;
   white-space: nowrap;
 }
 

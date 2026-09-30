@@ -1,9 +1,13 @@
 news_items:
 
-  - item: "Our blog post on BRIDGE is now available:"
+  - item: "Our new paper on retrieval-augmented agentic reinforcement learning is now available. In this work, we study how to jointly train an LLM agent and its retriever to help them work together more effectively on knowledge-intensive agentic search tasks."
     date: "Sep 2026"
-    link: "https://jenniferquanxiao.github.io/BRIDGE/"
-    link_text: "BRIDGE: Bilevel Retrieval-Credit-Aware Agentic Reinforcement Learning"
+    links:
+      - url: "https://arxiv.org/pdf/2609.36505"
+        text: "BRIDGE: Bilevel Retrieval-Credit-Aware Agentic Reinforcement Learning"
+      - url: "https://jenniferquanxiao.github.io/BRIDGE/"
+        prefix: "see a gentle introduction in"
+        text: "Blog"
     selected: y
 
   - item: "I'm grateful to receive support through the Google Cloud Research Credits Program and a Lambda Research Grant."

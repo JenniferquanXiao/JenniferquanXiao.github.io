@@ -20,7 +20,7 @@ html: |
     <div class="bio‑focus">
       <p>I focus on optimization and machine learning, particularly <strong>bilevel</strong> and <strong>multi‑objective optimization</strong> to develop provably efficient algorithms that advance two key frontiers of AI:</p>
       <ul class="frontiers">
-        <li><strong>Generative Models</strong>: multimodal large language models, diffusion models</li>
+        <li><strong>Generative Models</strong>: agentic and multimodal large language models, diffusion models</li>
         <li><strong>Next‑Generation AI Computing</strong>: emerging energy-efficient analog devices</li>
       </ul>
     </div>
@@ -28,4 +28,3 @@ html: |
     <div class="bio‑closing">
       <p>My goal is to bridge theory and practice, making AI models more efficient and scalable while designing algorithms tailored for emerging AI hardware computing architectures.</p>
     </div>
-

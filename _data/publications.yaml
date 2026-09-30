@@ -1,9 +1,12 @@
 papers:
 
-  - title: "BRIDGE: Bilevel Retrieval Credit Aware Agentic Reinforcement Learning"
+  - title: "BRIDGE: Bilevel Retrieval-Credit-Aware Agentic Reinforcement Learning"
     authors: "<strong><u>Quan Xiao</u></strong>, Mingda Liu, Gaowen Liu, Katsuki Fujisawa, and Tianyi Chen"
-    venue: "Coming soon"
+    venue: "arXiv preprint"
+    preprint: "https://arxiv.org/pdf/2609.36505"
+    blog: "https://jenniferquanxiao.github.io/BRIDGE/"
     category: ai
+    label: "arXiv"
     year: "2026"
     fig: "./assets/pub_figure/BRIDGE.png"
 
@@ -213,7 +216,6 @@ papers:
     year: "2020"
     label: "WACV"
     fig: "./assets/pub_figure/KSVD.png"
-
 
 
 

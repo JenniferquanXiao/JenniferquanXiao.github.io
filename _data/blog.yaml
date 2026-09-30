@@ -3,4 +3,3 @@ posts:
     date: "2026-09-29"
     url: "https://jenniferquanxiao.github.io/BRIDGE/"
     summary: "BRIDGE trains an LLM agent and its retriever through bilevel optimization, using feedback from the agent's answers to improve the evidence available for reasoning."
-    tags: ["agentic-ai", "reinforcement-learning", "bilevel-optimization"]
