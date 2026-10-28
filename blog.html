@@ -4,17 +4,21 @@ title: Blog
 description: "Research notes and project write-ups by Quan Xiao."
 permalink: /blog/
 ---
-<main class="docs-section" id="blog">
-  <h1>Blog</h1>
+<main class="docs-section" id="blog" aria-label="Blog">
   <ul class="blog-list">
     {% assign posts = site.data.blog.posts | sort: "date" | reverse %}
     {% for post in posts %}
     <li>
       <a class="blog-card" href="{{ post.url | escape }}">
-        <time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <div class="blog-card-meta">
+          <time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        </div>
         <h2>{{ post.title | escape }}</h2>
         {% if post.summary %}<p>{{ post.summary | escape }}</p>{% endif %}
         <div class="blog-card-footer">
+          {% if post.read_time %}
+          <span class="blog-read-time">{{ post.read_time | escape }} <span aria-hidden="true">&middot;</span></span>
+          {% endif %}
           <span class="blog-read-more">Read article <span aria-hidden="true">&rarr;</span></span>
         </div>
       </a>

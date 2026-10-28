@@ -1,5 +1,19 @@
 news_items:
 
+  - item: "I’ll be attending INFORMS 2026."
+    date: "Nov 2026"
+    selected: y
+
+  - item: "I’ll be giving an invited talk titled <i>Bilevel Optimization for Agentic AI: From Theory to Retrieval-augmented Agentic Reinforcement Learning</i> at the"
+    date: "Oct 2026"
+    link: "https://events.ucsc.edu/event/ece-special-seminar-bilevel-optimization-for-agentic-ai-from-theory-to-retrieval-augmented-agentic-reinforcement-learning/"
+    link_text: "UC Santa Cruz ECE Special Seminar"
+    selected: y
+
+  - item: "I’ll be attending Asilomar, presenting our work on <i>Breaking the Asymmetry Barrier in Analog In-Memory Training: A Signal Processing Solution</i>."
+    date: "Oct 2026"
+    selected: y
+
   - item: "Our new paper on retrieval-augmented agentic reinforcement learning is now available. In this work, we study how to jointly train an LLM agent and its retriever to help them work together more effectively on knowledge-intensive agentic search tasks."
     date: "Sep 2026"
     links:

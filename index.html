@@ -23,7 +23,7 @@ title: Home
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="news-recent">
+    <div class="tab-pane active news-scroll" id="news-recent" role="region" aria-label="Recent news" tabindex="0">
     {% assign recent_news = site.data.news.news_items | where: "selected", "y" %}
 
     {% for news_item in recent_news %}
@@ -54,7 +54,7 @@ title: Home
         {% endfor %}
       {% endif %}
 
-  <div class="tab-pane" id="news-old">
+  <div class="tab-pane news-scroll" id="news-old" role="region" aria-label="Old news" tabindex="0">
       {% assign old_news = site.data.news.news_items | where: "selected", "n" %}
       {% for news_item in old_news %}
       <p>
@@ -76,7 +76,7 @@ title: Home
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
-  <h4>Publications</h4>
+  <h4>Selected Publications</h4>
 
    
   <p>
@@ -97,22 +97,22 @@ title: Home
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="papers-optimization">
+    <div class="tab-pane active publications-scroll" id="papers-optimization" role="region" aria-label="Optimization Foundations publications" tabindex="0">
       {% assign papers = site.data.publications.papers | where: "category", "optimization" %}
       {% include publication_list.html papers=papers %}
     </div>
 
-    <div class="tab-pane" id="papers-ai">
+    <div class="tab-pane publications-scroll" id="papers-ai" role="region" aria-label="Generative and Agentic AI publications" tabindex="0">
       {% assign papers = site.data.publications.papers | where: "category", "ai" %}
       {% include publication_list.html papers=papers %}
     </div>
 
-    <div class="tab-pane" id="papers-analog">
+    <div class="tab-pane publications-scroll" id="papers-analog" role="region" aria-label="Analog In-Memory Training publications" tabindex="0">
       {% assign papers = site.data.publications.papers | where: "category", "analog" %}
       {% include publication_list.html papers=papers %}
     </div>
 
-    <div class="tab-pane" id="papers-all">
+    <div class="tab-pane publications-scroll" id="papers-all" role="region" aria-label="All publications" tabindex="0">
       {% include publication_list.html papers=site.data.publications.papers %}
     </div>
   </div>
