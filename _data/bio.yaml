@@ -21,7 +21,7 @@ html: |
       <p>I focus on optimization and machine learning, particularly <strong>bilevel</strong> and <strong>multi‑objective optimization</strong> to develop provably efficient algorithms that advance two key frontiers of AI:</p>
       <ul class="frontiers">
         <li><strong>Generative Models</strong>: agentic and multimodal large language models, diffusion models</li>
-        <li><strong>Next‑Generation AI Computing</strong>: emerging energy-efficient analog devices</li>
+        <li><strong>Next‑Generation AI Computing</strong>: hardware algorithm co-design for energy-efficient analog in-memory computing</li>
       </ul>
     </div>
 
