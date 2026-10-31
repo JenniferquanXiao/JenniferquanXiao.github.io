@@ -510,12 +510,126 @@ h4 {
   background: #f0fbff;
   border-left: 4px solid #B509AC;
   padding: 0.5rem 1.5rem;
-  margin: 1rem 0;
+  margin: 1rem 0 2.5rem;
 }
 
 .bio‑highlight p {
   color: #B509AC;
   margin: 0;
+}
+
+.bio‑focus > p {
+  margin-bottom: 1rem;
+}
+
+.research-overview {
+  margin: 3rem 0 1rem;
+}
+
+.research-overview a,
+.research-overview img {
+  display: block;
+}
+
+.research-overview img {
+  width: 100%;
+  height: auto;
+}
+
+.research-overview > a {
+  padding: 1rem;
+  border-radius: 14px;
+  cursor: zoom-in;
+}
+
+.research-overview figcaption {
+  margin-top: 0.8rem;
+  padding: 0 1rem;
+  color: #666;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.research-overview a:focus-visible,
+.research-overview-dialog :focus-visible {
+  outline: 2px solid #B509AC;
+  outline-offset: 4px;
+}
+
+.research-overview-open {
+  overflow: hidden;
+}
+
+.research-overview-dialog {
+  box-sizing: border-box;
+  width: calc(100% - 3.2rem);
+  max-width: 132rem;
+  max-height: calc(100dvh - 3.2rem);
+  margin: auto;
+  padding: 4.8rem clamp(1.6rem, 4vw, 4.8rem) 2.4rem;
+  border: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 24px 80px rgba(55, 21, 67, 0.18);
+}
+
+.research-overview-dialog::backdrop {
+  background: rgba(37, 24, 43, 0.28);
+  backdrop-filter: blur(6px);
+}
+
+.research-overview-dialog img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.research-overview-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(181, 9, 172, 0.06);
+  color: #B509AC;
+  font-size: 2.4rem;
+  line-height: 1;
+  letter-spacing: normal;
+}
+
+.research-overview-full-size {
+  display: block;
+  width: fit-content;
+  margin: 1.6rem 0 0 auto;
+  font-size: 1.3rem;
+  color: #B509AC;
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .research-overview > a {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .research-overview > a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(181, 9, 172, 0.1);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .research-overview-dialog[open] {
+    animation: research-overview-appear 0.25s ease-out;
+  }
+
+  @keyframes research-overview-appear {
+    from { opacity: 0; transform: translateY(10px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
 }
 
 .frontiers {
@@ -527,17 +641,30 @@ h4 {
 
 .frontiers li {
   position: relative;
-  padding-left: 1.5rem;
-  margin-bottom: 0.rem;
+  padding: 0.6rem 1rem 0.6rem 1.5rem;
+  margin-bottom: 0.6rem;
+  border-radius: 8px;
 }
 
 .frontiers li::before {
   content: "◉";
   position: absolute;
   left: 0;
-  top: 0.75em;
+  top: calc(0.75em + 0.6rem);
   color: #B509AC;
   font-size: 0.8rem;
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .frontiers li {
+    transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .frontiers li:hover {
+    transform: translateY(-2px);
+    background-color: rgba(181, 9, 172, 0.035);
+    box-shadow: 0 6px 18px rgba(181, 9, 172, 0.08);
+  }
 }
 
 .education {

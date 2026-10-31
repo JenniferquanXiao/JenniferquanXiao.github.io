@@ -24,6 +24,37 @@ $(document).ready(function() {
     $document.on('click', closePopover)
     $('a[href^="#"]').on('click', smoothScroll)
     buildSnippets();
+    initResearchOverview();
+  }
+
+  function initResearchOverview() {
+    var trigger = document.querySelector('.research-overview > a');
+    var dialog = document.getElementById('research-overview-dialog');
+    if (!trigger || !dialog || typeof dialog.showModal !== 'function') return;
+
+    trigger.addEventListener('click', function(e) {
+      if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();
+      dialog.showModal();
+      document.body.classList.add('research-overview-open');
+    });
+
+    dialog.querySelector('.research-overview-close').addEventListener('click', function() {
+      dialog.close();
+    });
+
+    dialog.addEventListener('click', function(e) {
+      if (e.target !== dialog) return;
+      var bounds = dialog.getBoundingClientRect();
+      if (e.clientX < bounds.left || e.clientX > bounds.right ||
+          e.clientY < bounds.top || e.clientY > bounds.bottom) {
+        dialog.close();
+      }
+    });
+
+    dialog.addEventListener('close', function() {
+      document.body.classList.remove('research-overview-open');
+    });
   }
 
   function smoothScroll(e) {

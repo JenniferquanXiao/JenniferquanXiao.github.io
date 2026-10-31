@@ -14,17 +14,31 @@ html: |
     </div> 
     
     <div class="bio‑highlight">
-      <p>At the core of my research is the question: <strong>How can optimization shape the next generation of AI?</strong></p>
+      <p>At the core of my research is the question: <strong>How can optimization guide the joint design of data, models, agentic systems, and computing hardware to make AI system more adaptive and efficient?</strong></p>
     </div>
 
     <div class="bio‑focus">
-      <p>I focus on optimization and machine learning, particularly <strong>bilevel</strong> and <strong>multi‑objective optimization</strong> to develop provably efficient algorithms that advance two key frontiers of AI:</p>
+      <p>My research aims to develop <strong>theoretical foundations and efficient algorithms for bilevel optimization</strong>, where one learning problem or decision-making process is nested within another optimization problem. Specifically, my work spans three directions:</p>
       <ul class="frontiers">
-        <li><strong>Generative Models</strong>: agentic and multimodal large language models, diffusion models</li>
-        <li><strong>Next‑Generation AI Computing</strong>: hardware algorithm co-design for energy-efficient analog in-memory computing</li>
+        <li><strong>Optimization Foundations:</strong> using landscape analysis to design provably efficient methods for nonconvex and constrained bilevel problems, with guarantees ranging from stationary convergence to global optimality under suitable structural conditions.</li>
+        <li><strong>Generative and Agentic AI:</strong> developing methods that use feedback on model performance to coordinate the adaptation of training data, retrieval, reasoning, and generation.</li>
+        <li><strong>Hardware–Algorithm Co-Design:</strong> algorithms that accommodate physical constraints and compensate for hardware nonidealities, with a focus on training for energy-efficient <strong>analog in-memory computing</strong>.</li>
       </ul>
     </div>
 
     <div class="bio‑closing">
-      <p>My goal is to bridge theory and practice, making AI models more efficient and scalable while designing algorithms tailored for emerging AI hardware computing architectures.</p>
+      <p>In the long-term, my research goal is to bridge theory and practice by improving the efficiency and scalability of AI models and developing algorithms tailored to emerging AI hardware architectures.</p>
     </div>
+
+    <figure class="research-overview">
+      <a href="/assets/research-overview.png" target="_blank" rel="noopener" aria-label="Enlarge research overview figure" aria-haspopup="dialog" aria-controls="research-overview-dialog">
+        <img src="/assets/research-overview.png" width="7191" height="1553" alt="Research overview connecting bilevel optimization and landscape analysis with analog in-memory training and tool-augmented AI agents." loading="lazy" decoding="async">
+      </a>
+      <figcaption><strong>Research overview.</strong> Bilevel optimization foundations for generative, agentic AI and analog in-memory computing</figcaption>
+    </figure>
+
+    <dialog id="research-overview-dialog" class="research-overview-dialog" aria-label="Research overview">
+      <button class="research-overview-close" type="button" aria-label="Close research overview">&times;</button>
+      <img src="/assets/research-overview.png" width="7191" height="1553" alt="Research overview connecting bilevel optimization and landscape analysis with analog in-memory training and tool-augmented AI agents." loading="lazy" decoding="async">
+      <a class="research-overview-full-size" href="/assets/research-overview.png" target="_blank" rel="noopener">Open full-size image &#8599;</a>
+    </dialog>
