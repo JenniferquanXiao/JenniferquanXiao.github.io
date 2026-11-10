@@ -655,6 +655,33 @@ h4 {
   font-size: 0.8rem;
 }
 
+.frontier-works {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.8rem;
+  margin-top: 0.7rem;
+}
+
+.frontier-works a {
+  padding: 0.2rem 0.9rem;
+  border: 1px solid rgba(181, 9, 172, 0.16);
+  border-radius: 1.4rem;
+  background: rgba(181, 9, 172, 0.04);
+  color: #B509AC;
+  font-size: 1.3rem;
+}
+
+.frontier-works a:hover,
+.frontier-works a:focus-visible {
+  background: rgba(181, 9, 172, 0.1);
+  text-decoration: underline;
+}
+
+.frontier-works a:focus-visible {
+  outline: 2px solid #B509AC;
+  outline-offset: 2px;
+}
+
 @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
   .frontiers li {
     transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;

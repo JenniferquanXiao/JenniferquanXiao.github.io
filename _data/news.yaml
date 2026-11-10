@@ -1,16 +1,21 @@
 news_items:
 
-  - item: "I’ll be attending INFORMS 2026."
+  - item: >-
+      I’ll be attending <a href="https://meetings.informs.org/wordpress/annual/" target="_blank" rel="noopener noreferrer">INFORMS 2026</a> in San Francisco, CA.
     date: "Nov 2026"
     selected: y
 
-  - item: "I’ll be giving an invited talk titled <i>Bilevel Optimization for Agentic AI: From Theory to Retrieval-augmented Agentic Reinforcement Learning</i> at the"
+  - item: >-
+      I’ll be giving an invited talk titled <i>Bilevel Optimization for Agentic AI: From Theory to Retrieval-augmented Agentic Reinforcement Learning</i> at the
+      <a href="https://events.ucsc.edu/event/ece-special-seminar-bilevel-optimization-for-agentic-ai-from-theory-to-retrieval-augmented-agentic-reinforcement-learning/" target="_blank" rel="noopener noreferrer">UC Santa Cruz ECE Special Seminar</a> in Santa Cruz, CA.
+      Thanks for the invitation and looking forward to the discussions!
     date: "Oct 2026"
-    link: "https://events.ucsc.edu/event/ece-special-seminar-bilevel-optimization-for-agentic-ai-from-theory-to-retrieval-augmented-agentic-reinforcement-learning/"
-    link_text: "UC Santa Cruz ECE Special Seminar"
     selected: y
 
-  - item: "I’ll be attending Asilomar, presenting our work on <i>Breaking the Asymmetry Barrier in Analog In-Memory Training: A Signal Processing Solution</i>."
+  - item: >-
+      I’ll be attending the <a href="https://www.asilomarsscconf.org/" target="_blank" rel="noopener noreferrer">Asilomar Conference on Signals, Systems, and Computers</a> in Pacific Grove, CA,
+      presenting our work on <i>Breaking the Asymmetry Barrier in Analog In-Memory Training: A Signal Processing Solution</i>,
+      which uses signal processing methods to tackle the dynamic calibration issues in analog in-memory computing.
     date: "Oct 2026"
     selected: y
 
@@ -24,7 +29,9 @@ news_items:
         text: "Blog"
     selected: y
 
-  - item: "I'm grateful to receive support through the Google Cloud Research Credits Program and a Lambda Research Grant."
+  - item: >-
+      I'm grateful to receive support through the <a href="https://cloud.google.com/edu/researchers" target="_blank" rel="noopener noreferrer">Google Cloud Research Credits Program</a>
+      and a <a href="https://lambda.com/research" target="_blank" rel="noopener noreferrer">Lambda Research Grant</a> for our research on <i>Optimization for Agentic AI</i>.
     date: "Sep 2026"
     selected: y
 
