@@ -178,7 +178,7 @@ h4 {
 
 .publications-scroll {
   box-sizing: border-box;
-  max-height: min(70vh, 640px);
+  max-height: min(85vh, 780px);
   overflow-y: auto;
   padding: 24px 20px 8px;
   border: 1px solid #eee;
@@ -510,12 +510,13 @@ h4 {
   background: #f0fbff;
   border-left: 4px solid #B509AC;
   padding: 0.5rem 1.5rem;
-  margin: 1rem 0 2.5rem;
+  margin: 4rem 0 2.5rem;
 }
 
 .bio‑highlight p {
   color: #B509AC;
   margin: 0;
+  text-align: center;
 }
 
 .bio‑focus > p {
@@ -707,9 +708,11 @@ h4 {
 }
 
 .education .year {
-  width: 110px;       /* fixed width so all years align */
+  width: 180px;       /* fixed width so all years align */
+  flex-shrink: 0;
   font-weight: bold;
   color: #555;
+  white-space: nowrap;
 }
 
 .education .details {

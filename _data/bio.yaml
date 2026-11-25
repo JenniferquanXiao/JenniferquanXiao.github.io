@@ -4,21 +4,19 @@ html: |
     <h4>Bio</h4>
     <div class="bio‑intro">
       <p>
-        I am currently a PhD student in <a href="https://www.engineering.cornell.edu/ece/" target="_blank">Electrical and Computer Engineering</a> at <a href="https://www.cornell.edu" target="_blank">Cornell University</a>, 
-        based at the <a href="https://tech.cornell.edu" target="_blank">Cornell Tech Campus</a> in New York City, 
-        and am fortunately advised by
-        <a href="https://chentianyi1991.github.io" target="_blank">Prof.&nbsp;Tianyi Chen</a>.  
-        Prior to that, I have spent four years at the <a href=https://ecse.rpi.edu target='_blank'>Rensselaer Polytechnic Institute</a> and transferred with my advisor.  
-        I received my Bachelor of Science degree in Statistics from <a href="https://en.ustc.edu.cn" target="_blank">University of Science and Technology of China</a> in 2020.
+        I am a Ph.D. candidate in the <a href="https://www.engineering.cornell.edu/ece/" target="_blank">Department of Electrical and Computer Engineering</a> at <a href="https://www.cornell.edu/" target="_blank">Cornell University</a>, based at the <a href="https://tech.cornell.edu/" target="_blank">Cornell Tech Campus</a> in New York City, and am fortunate to be advised by <a href="https://chentianyi1991.github.io/" target="_blank">Prof.&nbsp;Tianyi Chen</a>.
+        Prior to that, I earned my M.S. in Computer and Systems Engineering from <a href="https://ecse.rpi.edu/" target="_blank">Rensselaer Polytechnic Institute</a> in 2023, and my B.S. in Statistics from the University of Science and Technology of China in 2020.
+        I am a recipient of the <a href="https://signalprocessingsociety.org/community-involvement/sps-scholarship-program" target="_blank">IEEE Signal Processing Society Scholarship</a> in 2024.
+        I am also grateful to receive support from <a href="https://cloud.google.com/edu/researchers" target="_blank">Google</a> and <a href="https://lambda.com/research" target="_blank">Lambda</a>.
       </p>
     </div> 
     
     <div class="bio‑highlight">
-      <p>At the core of my research is the question: <strong>How can optimization guide the joint design of data, models, agentic systems, and computing hardware to make AI system more adaptive and efficient?</strong></p>
+      <p><strong>How can optimization guide the co-design of data, models, agents, and hardware for more adaptive and efficient AI?</strong></p>
     </div>
 
     <div class="bio‑focus">
-      <p>My research aims to develop <strong>theoretical foundations and efficient algorithms for bilevel optimization</strong>, where one learning problem or decision-making process is nested within another optimization problem. Specifically, my work spans three directions:</p>
+      <p>My research aims to develop <strong>theoretical foundations and efficient algorithms for bilevel optimization</strong>, where one learning problem is nested within another optimization problem. I leverage these methods to <strong>generative and agentic AI</strong> and <strong>hardware–algorithm co-design for energy-efficient AI</strong>. Specifically, my work spans three directions:</p>
       <ul class="frontiers">
         <li>
           <strong>Optimization Foundations:</strong> using landscape analysis to design provably efficient methods for nonconvex and constrained bilevel problems, with guarantees ranging from stationary convergence to global optimality under suitable structural conditions.
